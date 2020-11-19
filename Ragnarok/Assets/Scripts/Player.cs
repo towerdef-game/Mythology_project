@@ -25,7 +25,7 @@ public class Player : MonoBehaviour
     public bool walkingSound = false;
     public bool shootingSound = false;
 
-    [Header("Enemy Health")]
+    [Header("Player Health")]
     public int maxHealth = 100;
     public int health;
     public PlayerHealthBar playerHealthBar;
@@ -64,7 +64,7 @@ public class Player : MonoBehaviour
 			animator.SetBool ("move", true);
             walkingSound = true;
         }
-        // player is unable to jump when the player is moving, the player has to stop moving to jump
+        //FIXME: player is unable to jump when the player is moving, the player has to stop moving to jump
         if (Input.GetKey(KeyCode.Space))
         {
             Jump ();
@@ -93,6 +93,15 @@ public class Player : MonoBehaviour
         playerRigidbody.velocity += jumpVelocityToAdd;
         
     }
+//FIXME: HEALTH SEEMS TO DELEATE ITSELF WHEN THE PLAYER TOUCHES THE ENEMY
+    public void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.tag == "Enemy")
+        {
+            TakeDamage(10);
+        }
+
+    }
   public void TakeDamage(int damage)
     {
 
@@ -102,6 +111,7 @@ public class Player : MonoBehaviour
     }
     public void  Die()
     {
+    
 
     }
 

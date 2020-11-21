@@ -11,39 +11,41 @@ public class Player : MonoBehaviour
     public Collider2D playerCollider;
     public LayerMask JumpLayer;
     public float pJumpSpeed = 100f;
-	public Animator animator;
+	//public Animator animator;
     bool facingRight = true;
     bool death = true;
 
     [Header("Audio")]
 
-    public AudioClip walking;
-    public AudioSource audio1;
-    public AudioClip shooting;
-    public AudioSource audio2;
+  //  public AudioClip walking;
+    //public AudioSource audio1;
+    //public AudioClip shooting;
+   // public AudioSource audio2;
 
     public bool walkingSound = false;
     public bool shootingSound = false;
 
     [Header("Player Health")]
     public int maxHealth = 100;
-    public int health;
-    public PlayerHealthBar playerHealthBar;
+    public int currentPlayerHealth;
+    //public PlayerHealthBar playerHealthBar;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake ()
     {
-       playerRigidbody = GetComponent<Rigidbody2D> ();
+        currentPlayerHealth = maxHealth;
+        //playerHealthBar.setMaxHealth(maxHealth);
+    }
 
-        audio1 = GetComponent<AudioSource>();
-        audio1.clip = walking;
+    void start()
+    {
+        playerRigidbody = GetComponent<Rigidbody2D> ();
 
-        audio2 = GetComponent<AudioSource>();
-        audio1.clip = shooting;
+       // audio1 = GetComponent<AudioSource>();
+       // audio1.clip = walking;
 
-         health = maxHealth;
-        playerHealthBar.setMaxHealth(maxHealth);
- 
+        //audio2 = GetComponent<AudioSource>();
+        //audio1.clip = shooting;
     }
 
     // Update is called once per frame
@@ -53,27 +55,31 @@ public class Player : MonoBehaviour
         {
 			transform.localRotation = Quaternion.Euler (0, 0, 0);
 			transform.Translate (Vector2.right * speed * Time.deltaTime);
-			animator.SetBool ("move", true);
+			//animator.SetBool ("move", true);
             walkingSound = true;
         }
+
 		if (Input.GetKey (KeyCode.A)) 
         {
 			transform.localRotation = Quaternion.Euler (0, 180, 0);
 			transform.Translate (Vector2.right * speed * Time.deltaTime);
             facingRight = false;
-			animator.SetBool ("move", true);
+			//animator.SetBool ("move", true);
             walkingSound = true;
         }
+        
+
         //FIXME: player is unable to jump when the player is moving, the player has to stop moving to jump
         if (Input.GetKey(KeyCode.Space))
         {
-            Jump ();
+           Jump ();
+            //GetComponent<Rigidbody2D> ().AddForce (Vector2.up * jump);
         }
          
-           if (health <=0)
+           if (currentPlayerHealth <=0)
         {
             Die();
-        }
+        }  
     }
 
     void Flip()
@@ -93,26 +99,25 @@ public class Player : MonoBehaviour
         playerRigidbody.velocity += jumpVelocityToAdd;
         
     }
-//FIXME: HEALTH SEEMS TO DELEATE ITSELF WHEN THE PLAYER TOUCHES THE ENEMY
-    public void OnTriggerEnter2D(Collider2D other)
+    public void OnCollisionEnter2D(Collision2D other)
     {
         if(other.gameObject.tag == "Enemy")
         {
-            TakeDamage(10);
+            TakeDamage(100);
         }
 
-    }
+   }
   public void TakeDamage(int damage)
     {
 
-        health -= damage;
-        playerHealthBar.SetHealth(health);
+        currentPlayerHealth -= damage;
+        //playerHealthBar.SetHealth(currentPlayerHealth);
 
     }
     public void  Die()
     {
-    
-
+    Destroy(this.gameObject);
+        Debug.Log("Dead");
     }
 
 }

@@ -27,7 +27,7 @@ public class Player : MonoBehaviour
 
     [Header("Player Health")]
     public int maxHealth = 100;
-    public int currentPlayerHealth;
+    public static int currentPlayerHealth;
     //public PlayerHealthBar playerHealthBar;
 
     // Start is called before the first frame update

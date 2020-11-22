@@ -36,10 +36,10 @@ private Player player;
 	// Update is called once per frame
 	void Update() 
 	{
-//if(Player.currentPlayerHealth <=0)
-		//{
-		//PlayerDeath();
-		//}
+		if(Player.currentPlayerHealth <=0)
+		{
+		PlayerDeath();
+		}
 	}
 	
 	public void PlayerDeath()

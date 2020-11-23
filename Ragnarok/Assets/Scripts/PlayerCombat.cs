@@ -8,12 +8,20 @@ public class PlayerCombat : MonoBehaviour
     public Transform attackPoint;
     public float attackRange = 0.5f;
     public LayerMask enemyLayer;
+
+    public float attackRate = 2f;
+    float nextAttack = 0;
+    //public Player player;
    
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Mouse0 ))
-        {
-            Attack();
+        if(Time.time >= nextAttack)
+        {    
+         if(Input.GetKeyDown(KeyCode.Mouse0 ))
+            {
+                Attack();
+                nextAttack =  Time.time + 1f/attackRate;
+            }
         }
     }
     public void Attack()
@@ -23,6 +31,10 @@ public class PlayerCombat : MonoBehaviour
 
         foreach(Collider2D	enemy in hit)
         {
+            // TODO: ADD attack damage
+
+            //ADD THAT WHEN THE ENEMY DIES IT ADDS 1 TO PLAYER KILL COUNT POWER UP
+            //enemy.GetComponent<Player>().KillCount(2);
 
         }
     }

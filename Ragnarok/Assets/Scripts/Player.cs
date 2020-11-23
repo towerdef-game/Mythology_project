@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
     public float pJumpSpeed = 100f;
 	//public Animator animator;
     bool facingRight = true;
-    bool death = true;
+    //bool death = true;
 
     [Header("Audio")]
 
@@ -28,13 +28,17 @@ public class Player : MonoBehaviour
     [Header("Player Health")]
     public int maxHealth = 100;
     public static int currentPlayerHealth;
-    //public PlayerHealthBar playerHealthBar;
+    public PlayerHealthBar playerHealthBar;
+    public int maxKillAmount  = 0;
+    public static int currentPlayerKill;
+
 
     // Start is called before the first frame update
     void Awake ()
     {
         currentPlayerHealth = maxHealth;
-        //playerHealthBar.setMaxHealth(maxHealth);
+        currentPlayerKill = maxKillAmount;
+        playerHealthBar.setMaxHealth(maxKillAmount);
     }
 
     void start()
@@ -111,13 +115,20 @@ public class Player : MonoBehaviour
     {
 
         currentPlayerHealth -= damage;
-        //playerHealthBar.SetHealth(currentPlayerHealth);
+       // playerHealthBar.SetHealth(currentPlayerHealth);
+
+    }
+    public void KillCount(int damage)
+    {
+
+        currentPlayerKill += damage;
+        playerHealthBar.SetHealth(currentPlayerKill);
 
     }
     public void  Die()
     {
     Destroy(this.gameObject);
-        Debug.Log("Dead");
+        //Debug.Log("Dead");
     }
 
 }

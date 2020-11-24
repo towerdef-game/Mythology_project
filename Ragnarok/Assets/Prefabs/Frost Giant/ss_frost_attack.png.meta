@@ -1,7 +1,76 @@
 fileFormatVersion: 2
 guid: 11bea9527f20a3d439b4c6665b66473d
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3666382819301684284
+    second: ss_frost_attack_0
+  - first:
+      213: -6813684420046956304
+    second: ss_frost_attack_1
+  - first:
+      213: 3577415338120960908
+    second: ss_frost_attack_2
+  - first:
+      213: 3409054556458264679
+    second: ss_frost_attack_3
+  - first:
+      213: -7863745814720317886
+    second: ss_frost_attack_4
+  - first:
+      213: -6743026981518685052
+    second: ss_frost_attack_5
+  - first:
+      213: 6878083479525745062
+    second: ss_frost_attack_6
+  - first:
+      213: 6727877795281894074
+    second: ss_frost_attack_7
+  - first:
+      213: 2346410157108748401
+    second: ss_frost_attack_8
+  - first:
+      213: 4932091677445372881
+    second: ss_frost_attack_9
+  - first:
+      213: -6831376524997123684
+    second: ss_frost_attack_10
+  - first:
+      213: -3382676665241578134
+    second: ss_frost_attack_11
+  - first:
+      213: -6449832951141229132
+    second: ss_frost_attack_12
+  - first:
+      213: 7250167202452828056
+    second: ss_frost_attack_13
+  - first:
+      213: 2806197440482874819
+    second: ss_frost_attack_14
+  - first:
+      213: 8155638648507410536
+    second: ss_frost_attack_15
+  - first:
+      213: -1330456330890054272
+    second: ss_frost_attack_16
+  - first:
+      213: -7341422705482478109
+    second: ss_frost_attack_17
+  - first:
+      213: -1123830489919150340
+    second: ss_frost_attack_18
+  - first:
+      213: 5892082580293947009
+    second: ss_frost_attack_19
+  - first:
+      213: 7936675939205620076
+    second: ss_frost_attack_20
+  - first:
+      213: -7500610925663644272
+    second: ss_frost_attack_21
+  - first:
+      213: 4439778413031787878
+    second: ss_frost_attack_22
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +109,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +140,504 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: ss_frost_attack_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 0
+        width: 112
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb8dec40446e1dc0800000000000000
+      internalID: -3666382819301684284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_frost_attack_1
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 0
+        width: 112
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8dc73de1ee071a0800000000000000
+      internalID: -6813684420046956304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_frost_attack_2
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 0
+        width: 112
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8bdbbacb4885a130800000000000000
+      internalID: 3577415338120960908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_frost_attack_3
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 0
+        width: 115
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7682f91ae056f4f20800000000000000
+      internalID: 3409054556458264679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_frost_attack_4
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 91
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24671ad68dc5ed290800000000000000
+      internalID: -7863745814720317886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_frost_attack_5
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 0
+        width: 136
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c44b7bfa4fb62a0800000000000000
+      internalID: -6743026981518685052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_frost_attack_6
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 88
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a16d94ab7cd37f50800000000000000
+      internalID: 6878083479525745062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_frost_attack_7
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 0
+        width: 157
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abaf30085393e5d50800000000000000
+      internalID: 6727877795281894074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_frost_attack_8
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 67
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170e5d72b9f109020800000000000000
+      internalID: 2346410157108748401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_frost_attack_9
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 86
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbbac1df3f427440800000000000000
+      internalID: 4932091677445372881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_frost_attack_10
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 75
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91aa94ae331231a0800000000000000
+      internalID: -6831376524997123684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_frost_attack_11
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 88
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65d542ce715e01d0800000000000000
+      internalID: -3382676665241578134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_frost_attack_12
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 66
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd1e968a179d76a0800000000000000
+      internalID: -6449832951141229132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_frost_attack_13
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 42
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f636858a4cd9460800000000000000
+      internalID: 7250167202452828056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_frost_attack_14
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 66
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5979944bd91f620800000000000000
+      internalID: 2806197440482874819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_frost_attack_15
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 51
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8682bb0f326ae2170800000000000000
+      internalID: 8155638648507410536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_frost_attack_16
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 51
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085f0202405498de0800000000000000
+      internalID: -1330456330890054272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_frost_attack_17
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 42
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3edcab522f60e1a90800000000000000
+      internalID: -7341422705482478109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_frost_attack_18
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 42
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6ad9caf1a5760f0800000000000000
+      internalID: -1123830489919150340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_frost_attack_19
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 34
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e00b1a3e1e4c150800000000000000
+      internalID: 5892082580293947009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_frost_attack_20
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 34
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61adb567bcb42e60800000000000000
+      internalID: 7936675939205620076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_frost_attack_21
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 29
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09597616a1a78e790800000000000000
+      internalID: -7500610925663644272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_frost_attack_22
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 29
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d053691f24d9d30800000000000000
+      internalID: 4439778413031787878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

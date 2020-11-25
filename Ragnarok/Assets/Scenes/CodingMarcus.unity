@@ -1109,6 +1109,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   pJumpSpeed: 1
+  animatorHeimdall: {fileID: 635179770}
+  animatorOdin: {fileID: 2015132360}
+  animatorThor: {fileID: 541417814}
   walkingSound: 0
   shootingSound: 0
   maxHealth: 10

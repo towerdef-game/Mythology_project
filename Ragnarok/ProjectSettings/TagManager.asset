@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - thor
+  - odin
+  - heimdall
   layers:
   - Default
   - TransparentFX

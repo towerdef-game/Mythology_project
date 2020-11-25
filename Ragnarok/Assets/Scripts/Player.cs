@@ -12,8 +12,8 @@ public class Player : MonoBehaviour
     public LayerMask JumpLayer;
     public float pJumpSpeed = 100f;
 	public Animator animatorHeimdall;
-    	public Animator animatorOdin;
-        	public Animator animatorThor;
+    	//public Animator animatorOdin;
+        	//public Animator animatorThor;
     bool facingRight = true;
     //bool death = true;
 
@@ -42,8 +42,8 @@ public class Player : MonoBehaviour
         currentPlayerKill = maxKillAmount;
         //playerHealthBar.setMaxHealth(maxKillAmount);
         animatorHeimdall = GetComponentInChildren<Animator>();
-        animatorOdin = GetComponentInChildren<Animator>();
-        animatorThor = GetComponentInChildren<Animator>();
+       // animatorOdin = GetComponentInChildren<Animator>();
+       // animatorThor = GetComponentInChildren<Animator>();
     }
 
     void start()
@@ -64,10 +64,37 @@ public class Player : MonoBehaviour
         {
 			transform.localRotation = Quaternion.Euler (0, 0, 0);
 			transform.Translate (Vector2.right * speed * Time.deltaTime);
-			animatorOdin.SetBool ("move", true);
-            animatorThor.SetBool ("move", true);
-            animatorHeimdall.SetBool ("move", true);
+            facingRight = true;
+
+	        if(gameObject.tag == "odin")
+            {
+                animatorHeimdall.SetBool ("moveOdin", true);
+            }
+            if(gameObject.tag == "thor")
+            {
+                animatorHeimdall.SetBool ("moveThor", true);
+            }
+            if(gameObject.tag == "heimdall")
+            {
+                 animatorHeimdall.SetBool ("moveHeimdall", true);
+            }
             walkingSound = true;
+        }
+         else
+         {
+             if(gameObject.tag == "odin")
+            {
+                animatorHeimdall.SetBool ("moveOdin", false);
+            }
+            if(gameObject.tag == "thor")
+            {
+                animatorHeimdall.SetBool ("moveThor", false);
+            }
+            if(gameObject.tag == "heimdall")
+            {
+                 animatorHeimdall.SetBool ("moveHeimdall", false);
+            }
+
         }
 
 		if (Input.GetKey (KeyCode.A)) 
@@ -75,10 +102,36 @@ public class Player : MonoBehaviour
 			transform.localRotation = Quaternion.Euler (0, 180, 0);
 			transform.Translate (Vector2.right * speed * Time.deltaTime);
             facingRight = false;
-			animatorOdin.SetBool ("move", true);
-            animatorThor.SetBool ("move", true);
-            animatorHeimdall.SetBool ("move", true);
+
+            if(gameObject.tag == "odin")
+            {
+                animatorHeimdall.SetBool ("moveOdin", true);
+            }
+            if(gameObject.tag == "thor")
+            {
+                animatorHeimdall.SetBool ("moveThor", true);
+            }
+            if(gameObject.tag == "heimdall")
+            {
+                 animatorHeimdall.SetBool ("moveHeimdall", true);
+            }
             walkingSound = true;
+        }
+         else
+         {
+             if(gameObject.tag == "odin")
+            {
+                animatorHeimdall.SetBool ("moveOdin", false);
+            }
+            if(gameObject.tag == "thor")
+            {
+                animatorHeimdall.SetBool ("moveThor", false);
+            }
+            if(gameObject.tag == "heimdall")
+            {
+                 animatorHeimdall.SetBool ("moveHeimdall", false);
+            }
+
         }
         
 

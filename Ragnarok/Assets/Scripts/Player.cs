@@ -11,9 +11,15 @@ public class Player : MonoBehaviour
     public Collider2D playerCollider;
     public LayerMask JumpLayer;
     public float pJumpSpeed = 100f;
+<<<<<<< Updated upstream
 	public Animator animatorHeimdall;
     	//public Animator animatorOdin;
         	//public Animator animatorThor;
+=======
+	public Animator Anim;
+    //	public Animator animatorOdin;
+        //	public Animator animatorThor;
+>>>>>>> Stashed changes
     bool facingRight = true;
     //bool death = true;
 
@@ -41,15 +47,20 @@ public class Player : MonoBehaviour
         currentPlayerHealth = maxHealth;
         currentPlayerKill = maxKillAmount;
         //playerHealthBar.setMaxHealth(maxKillAmount);
+<<<<<<< Updated upstream
         animatorHeimdall = GetComponentInChildren<Animator>();
        // animatorOdin = GetComponentInChildren<Animator>();
+=======
+      //  animatorHeimdall = GetComponentInChildren<Animator>();
+      //  animatorOdin = GetComponentInChildren<Animator>();
+>>>>>>> Stashed changes
        // animatorThor = GetComponentInChildren<Animator>();
     }
 
-    void start()
+    void Start()
     {
         playerRigidbody = GetComponent<Rigidbody2D> ();
-
+        Anim = GetComponent<Animator>();
        // audio1 = GetComponent<AudioSource>();
        // audio1.clip = walking;
 
@@ -64,6 +75,7 @@ public class Player : MonoBehaviour
         {
 			transform.localRotation = Quaternion.Euler (0, 0, 0);
 			transform.Translate (Vector2.right * speed * Time.deltaTime);
+<<<<<<< Updated upstream
             facingRight = true;
 
 	        if(gameObject.tag == "odin")
@@ -96,12 +108,25 @@ public class Player : MonoBehaviour
             }
 
         }
+=======
+			Anim.SetBool ("move", true);
+         //   animatorThor.SetBool ("move", true);
+          //  animatorHeimdall.SetBool ("move", true);
+            walkingSound = true;
+        }
+        if (Input.GetKeyUp(KeyCode.D))
+        {
+            Anim.SetBool("move", false);
+>>>>>>> Stashed changes
 
-		if (Input.GetKey (KeyCode.A)) 
+        }
+
+        if (Input.GetKey (KeyCode.A)) 
         {
 			transform.localRotation = Quaternion.Euler (0, 180, 0);
 			transform.Translate (Vector2.right * speed * Time.deltaTime);
             facingRight = false;
+<<<<<<< Updated upstream
 
             if(gameObject.tag == "odin")
             {
@@ -134,15 +159,30 @@ public class Player : MonoBehaviour
 
         }
         
+=======
+            Anim.SetBool("move", true);
+         
+			//animatorOdin.SetBool ("move", true);
+            //animatorThor.SetBool ("move", true);
+            //animatorHeimdall.SetBool ("move", true);
+            walkingSound = true;
+        }
+        if (Input.GetKeyUp(KeyCode.A))
+        {
+            Anim.SetBool("move", false);
+
+        }
+>>>>>>> Stashed changes
 
         //FIXME: player is unable to jump when the player is moving, the player has to stop moving to jump
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
            Jump ();
             //GetComponent<Rigidbody2D> ().AddForce (Vector2.up * jump);
         }
-         
-           if (currentPlayerHealth <=0)
+       
+    
+        if (currentPlayerHealth <=0)
         {
             Die();
         }  

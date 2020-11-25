@@ -382,7 +382,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &541417813
 Transform:
   m_ObjectHideFlags: 0
@@ -535,6 +535,7 @@ MonoBehaviour:
     m_Bits: 256
   pJumpSpeed: 1
   animatorHeimdall: {fileID: 541417814}
+  Anim: {fileID: 0}
   walkingSound: 0
   shootingSound: 0
   maxHealth: 10
@@ -565,7 +566,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &635179769
 Transform:
   m_ObjectHideFlags: 0
@@ -671,6 +672,7 @@ MonoBehaviour:
     m_Bits: 256
   pJumpSpeed: 1
   animatorHeimdall: {fileID: 635179770}
+  Anim: {fileID: 0}
   walkingSound: 0
   shootingSound: 0
   maxHealth: 10
@@ -1284,6 +1286,7 @@ MonoBehaviour:
     m_Bits: 256
   pJumpSpeed: 1
   animatorHeimdall: {fileID: 2015132360}
+  Anim: {fileID: 0}
   walkingSound: 0
   shootingSound: 0
   maxHealth: 10

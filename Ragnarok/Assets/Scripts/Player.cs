@@ -11,15 +11,15 @@ public class Player : MonoBehaviour
     public Collider2D playerCollider;
     public LayerMask JumpLayer;
     public float pJumpSpeed = 100f;
-<<<<<<< Updated upstream
+
 	public Animator animatorHeimdall;
     	//public Animator animatorOdin;
         	//public Animator animatorThor;
-=======
+
 	public Animator Anim;
     //	public Animator animatorOdin;
         //	public Animator animatorThor;
->>>>>>> Stashed changes
+
     bool facingRight = true;
     //bool death = true;
 
@@ -47,13 +47,12 @@ public class Player : MonoBehaviour
         currentPlayerHealth = maxHealth;
         currentPlayerKill = maxKillAmount;
         //playerHealthBar.setMaxHealth(maxKillAmount);
-<<<<<<< Updated upstream
+
         animatorHeimdall = GetComponentInChildren<Animator>();
        // animatorOdin = GetComponentInChildren<Animator>();
-=======
-      //  animatorHeimdall = GetComponentInChildren<Animator>();
+     //  animatorHeimdall = GetComponentInChildren<Animator>();
       //  animatorOdin = GetComponentInChildren<Animator>();
->>>>>>> Stashed changes
+
        // animatorThor = GetComponentInChildren<Animator>();
     }
 
@@ -75,40 +74,11 @@ public class Player : MonoBehaviour
         {
 			transform.localRotation = Quaternion.Euler (0, 0, 0);
 			transform.Translate (Vector2.right * speed * Time.deltaTime);
-<<<<<<< Updated upstream
+
             facingRight = true;
 
-	        if(gameObject.tag == "odin")
-            {
-                animatorHeimdall.SetBool ("moveOdin", true);
-            }
-            if(gameObject.tag == "thor")
-            {
-                animatorHeimdall.SetBool ("moveThor", true);
-            }
-            if(gameObject.tag == "heimdall")
-            {
-                 animatorHeimdall.SetBool ("moveHeimdall", true);
-            }
-            walkingSound = true;
-        }
-         else
-         {
-             if(gameObject.tag == "odin")
-            {
-                animatorHeimdall.SetBool ("moveOdin", false);
-            }
-            if(gameObject.tag == "thor")
-            {
-                animatorHeimdall.SetBool ("moveThor", false);
-            }
-            if(gameObject.tag == "heimdall")
-            {
-                 animatorHeimdall.SetBool ("moveHeimdall", false);
-            }
+	 
 
-        }
-=======
 			Anim.SetBool ("move", true);
          //   animatorThor.SetBool ("move", true);
           //  animatorHeimdall.SetBool ("move", true);
@@ -117,7 +87,7 @@ public class Player : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.D))
         {
             Anim.SetBool("move", false);
->>>>>>> Stashed changes
+
 
         }
 
@@ -126,40 +96,10 @@ public class Player : MonoBehaviour
 			transform.localRotation = Quaternion.Euler (0, 180, 0);
 			transform.Translate (Vector2.right * speed * Time.deltaTime);
             facingRight = false;
-<<<<<<< Updated upstream
 
-            if(gameObject.tag == "odin")
-            {
-                animatorHeimdall.SetBool ("moveOdin", true);
-            }
-            if(gameObject.tag == "thor")
-            {
-                animatorHeimdall.SetBool ("moveThor", true);
-            }
-            if(gameObject.tag == "heimdall")
-            {
-                 animatorHeimdall.SetBool ("moveHeimdall", true);
-            }
-            walkingSound = true;
-        }
-         else
-         {
-             if(gameObject.tag == "odin")
-            {
-                animatorHeimdall.SetBool ("moveOdin", false);
-            }
-            if(gameObject.tag == "thor")
-            {
-                animatorHeimdall.SetBool ("moveThor", false);
-            }
-            if(gameObject.tag == "heimdall")
-            {
-                 animatorHeimdall.SetBool ("moveHeimdall", false);
-            }
 
-        }
         
-=======
+
             Anim.SetBool("move", true);
          
 			//animatorOdin.SetBool ("move", true);
@@ -172,7 +112,7 @@ public class Player : MonoBehaviour
             Anim.SetBool("move", false);
 
         }
->>>>>>> Stashed changes
+
 
         //FIXME: player is unable to jump when the player is moving, the player has to stop moving to jump
         if (Input.GetKeyDown(KeyCode.Space))

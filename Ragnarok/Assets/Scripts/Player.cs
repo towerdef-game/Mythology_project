@@ -11,7 +11,9 @@ public class Player : MonoBehaviour
     public Collider2D playerCollider;
     public LayerMask JumpLayer;
     public float pJumpSpeed = 100f;
-	//public Animator animator;
+	public Animator animatorHeimdall;
+    	public Animator animatorOdin;
+        	public Animator animatorThor;
     bool facingRight = true;
     //bool death = true;
 
@@ -28,7 +30,7 @@ public class Player : MonoBehaviour
     [Header("Player Health")]
     public int maxHealth = 100;
     public static int currentPlayerHealth;
-    public PlayerHealthBar playerHealthBar;
+   // public PlayerHealthBar playerHealthBar;
     public int maxKillAmount  = 0;
     public static int currentPlayerKill;
 
@@ -38,7 +40,10 @@ public class Player : MonoBehaviour
     {
         currentPlayerHealth = maxHealth;
         currentPlayerKill = maxKillAmount;
-        playerHealthBar.setMaxHealth(maxKillAmount);
+        //playerHealthBar.setMaxHealth(maxKillAmount);
+        animatorHeimdall = GetComponentInChildren<Animator>();
+        animatorOdin = GetComponentInChildren<Animator>();
+        animatorThor = GetComponentInChildren<Animator>();
     }
 
     void start()
@@ -59,7 +64,9 @@ public class Player : MonoBehaviour
         {
 			transform.localRotation = Quaternion.Euler (0, 0, 0);
 			transform.Translate (Vector2.right * speed * Time.deltaTime);
-			//animator.SetBool ("move", true);
+			animatorOdin.SetBool ("move", true);
+            animatorThor.SetBool ("move", true);
+            animatorHeimdall.SetBool ("move", true);
             walkingSound = true;
         }
 
@@ -68,7 +75,9 @@ public class Player : MonoBehaviour
 			transform.localRotation = Quaternion.Euler (0, 180, 0);
 			transform.Translate (Vector2.right * speed * Time.deltaTime);
             facingRight = false;
-			//animator.SetBool ("move", true);
+			animatorOdin.SetBool ("move", true);
+            animatorThor.SetBool ("move", true);
+            animatorHeimdall.SetBool ("move", true);
             walkingSound = true;
         }
         
@@ -122,7 +131,7 @@ public class Player : MonoBehaviour
     {
 
         currentPlayerKill += damage;
-        playerHealthBar.SetHealth(currentPlayerKill);
+        //playerHealthBar.SetHealth(currentPlayerKill);
 
     }
     public void  Die()

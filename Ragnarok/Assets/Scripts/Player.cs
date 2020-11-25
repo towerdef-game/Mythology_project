@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
     public Collider2D playerCollider;
     public LayerMask JumpLayer;
     public float pJumpSpeed = 100f;
-	//public Animator animator;
+	public Animator animator;
     bool facingRight = true;
     //bool death = true;
 
@@ -28,7 +28,7 @@ public class Player : MonoBehaviour
     [Header("Player Health")]
     public int maxHealth = 100;
     public static int currentPlayerHealth;
-    public PlayerHealthBar playerHealthBar;
+   // public PlayerHealthBar playerHealthBar;
     public int maxKillAmount  = 0;
     public static int currentPlayerKill;
 
@@ -38,7 +38,8 @@ public class Player : MonoBehaviour
     {
         currentPlayerHealth = maxHealth;
         currentPlayerKill = maxKillAmount;
-        playerHealthBar.setMaxHealth(maxKillAmount);
+        //playerHealthBar.setMaxHealth(maxKillAmount);
+        animator = GetComponent<Animator>();
     }
 
     void start()
@@ -59,7 +60,7 @@ public class Player : MonoBehaviour
         {
 			transform.localRotation = Quaternion.Euler (0, 0, 0);
 			transform.Translate (Vector2.right * speed * Time.deltaTime);
-			//animator.SetBool ("move", true);
+			animator.SetBool ("move", true);
             walkingSound = true;
         }
 
@@ -68,7 +69,7 @@ public class Player : MonoBehaviour
 			transform.localRotation = Quaternion.Euler (0, 180, 0);
 			transform.Translate (Vector2.right * speed * Time.deltaTime);
             facingRight = false;
-			//animator.SetBool ("move", true);
+			animator.SetBool ("move", true);
             walkingSound = true;
         }
         
@@ -122,7 +123,7 @@ public class Player : MonoBehaviour
     {
 
         currentPlayerKill += damage;
-        playerHealthBar.SetHealth(currentPlayerKill);
+        //playerHealthBar.SetHealth(currentPlayerKill);
 
     }
     public void  Die()

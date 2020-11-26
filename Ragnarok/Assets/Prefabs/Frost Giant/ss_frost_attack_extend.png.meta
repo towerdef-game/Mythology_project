@@ -29,6 +29,33 @@ TextureImporter:
   - first:
       213: -8366988069835450984
     second: ss_frost_attack_extend_8
+  - first:
+      213: 2916582917109240344
+    second: ss_frost_attack_extend_0
+  - first:
+      213: -5368389953298074035
+    second: ss_frost_attack_extend_1
+  - first:
+      213: -1420695282596064960
+    second: ss_frost_attack_extend_2
+  - first:
+      213: 1259131721944941316
+    second: ss_frost_attack_extend_3
+  - first:
+      213: -8510071632519579499
+    second: ss_frost_attack_extend_4
+  - first:
+      213: 8505200483827232464
+    second: ss_frost_attack_extend_5
+  - first:
+      213: 4047115068093046116
+    second: ss_frost_attack_extend_6
+  - first:
+      213: 5890655871027618895
+    second: ss_frost_attack_extend_7
+  - first:
+      213: 6802605381134785236
+    second: ss_frost_attack_extend_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -58,7 +85,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -72,7 +99,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 360
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -153,10 +180,10 @@ TextureImporter:
       name: ss_frost_attack_extend_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 108
         y: 0
-        width: 360
-        height: 200
+        width: 113
+        height: 137
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,8 +191,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a5eedc947a763ca0800000000000000
-      internalID: -6037503609176922711
+      spriteID: 812d44cd5b8c97820800000000000000
+      internalID: 2916582917109240344
       vertices: []
       indices: 
       edges: []
@@ -174,10 +201,10 @@ TextureImporter:
       name: ss_frost_attack_extend_1
       rect:
         serializedVersion: 2
-        x: 360
+        x: 468
         y: 0
-        width: 360
-        height: 200
+        width: 114
+        height: 137
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,8 +212,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92297aaa83b69f0f0800000000000000
-      internalID: -1082716344280444375
+      spriteID: d4674e9c7c5af75b0800000000000000
+      internalID: -5368389953298074035
       vertices: []
       indices: 
       edges: []
@@ -195,10 +222,10 @@ TextureImporter:
       name: ss_frost_attack_extend_2
       rect:
         serializedVersion: 2
-        x: 720
+        x: 827
         y: 0
-        width: 360
-        height: 200
+        width: 116
+        height: 137
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,8 +233,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df5a04a1983cbc770800000000000000
-      internalID: 8632208104404067837
+      spriteID: 041d9caea2da84ce0800000000000000
+      internalID: -1420695282596064960
       vertices: []
       indices: 
       edges: []
@@ -216,10 +243,10 @@ TextureImporter:
       name: ss_frost_attack_extend_3
       rect:
         serializedVersion: 2
-        x: 1080
+        x: 1185
         y: 0
-        width: 360
-        height: 200
+        width: 117
+        height: 137
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,8 +254,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc2b2c158e62c99d0800000000000000
-      internalID: -2766293291866344753
+      spriteID: 40344f341a5597110800000000000000
+      internalID: 1259131721944941316
       vertices: []
       indices: 
       edges: []
@@ -237,10 +264,10 @@ TextureImporter:
       name: ss_frost_attack_extend_4
       rect:
         serializedVersion: 2
-        x: 1440
+        x: 1523
         y: 0
-        width: 360
-        height: 200
+        width: 140
+        height: 137
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,8 +275,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a858eb6277bd6bf90800000000000000
-      internalID: -6938116871120058998
+      spriteID: 598ba8240f626e980800000000000000
+      internalID: -8510071632519579499
       vertices: []
       indices: 
       edges: []
@@ -258,10 +285,10 @@ TextureImporter:
       name: ss_frost_attack_extend_5
       rect:
         serializedVersion: 2
-        x: 1800
+        x: 1862
         y: 0
-        width: 360
-        height: 200
+        width: 160
+        height: 137
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,8 +296,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2eafb800df968db30800000000000000
-      internalID: 4312313178564066018
+      spriteID: 0dea00e07ca880670800000000000000
+      internalID: 8505200483827232464
       vertices: []
       indices: 
       edges: []
@@ -279,10 +306,10 @@ TextureImporter:
       name: ss_frost_attack_extend_6
       rect:
         serializedVersion: 2
-        x: 2160
+        x: 2190
         y: 0
-        width: 360
-        height: 200
+        width: 193
+        height: 137
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,8 +317,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 518270c4d5226b0d0800000000000000
-      internalID: -3407498283956361195
+      spriteID: 46d11de36bd3a2830800000000000000
+      internalID: 4047115068093046116
       vertices: []
       indices: 
       edges: []
@@ -300,10 +327,10 @@ TextureImporter:
       name: ss_frost_attack_extend_7
       rect:
         serializedVersion: 2
-        x: 2520
+        x: 2536
         y: 0
-        width: 360
-        height: 200
+        width: 206
+        height: 137
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -311,8 +338,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33316e4359e37f7b0800000000000000
-      internalID: -5190611234962664653
+      spriteID: f44abaefd40dfb150800000000000000
+      internalID: 5890655871027618895
       vertices: []
       indices: 
       edges: []
@@ -321,10 +348,10 @@ TextureImporter:
       name: ss_frost_attack_extend_8
       rect:
         serializedVersion: 2
-        x: 2880
+        x: 2879
         y: 0
-        width: 360
-        height: 200
+        width: 223
+        height: 137
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -332,8 +359,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 895d6814eac72eb80800000000000000
-      internalID: -8366988069835450984
+      spriteID: 4da13b96d85b76e50800000000000000
+      internalID: 6802605381134785236
       vertices: []
       indices: 
       edges: []

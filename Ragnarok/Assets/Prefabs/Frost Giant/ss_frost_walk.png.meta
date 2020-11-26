@@ -11,6 +11,15 @@ TextureImporter:
   - first:
       213: 5404204206374144058
     second: ss_frost_walk_2
+  - first:
+      213: 8899227871146853821
+    second: ss_frost_walk_0
+  - first:
+      213: -77190647270403885
+    second: ss_frost_walk_1
+  - first:
+      213: 3871730049512024646
+    second: ss_frost_walk_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -54,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -92,6 +101,42 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -99,10 +144,10 @@ TextureImporter:
       name: ss_frost_walk_0
       rect:
         serializedVersion: 2
-        x: 80
+        x: 0
         y: 0
-        width: 78
-        height: 194
+        width: 232
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -110,8 +155,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b625df742498c260800000000000000
-      internalID: 7118102095543477945
+      spriteID: db5c6f24998608b70800000000000000
+      internalID: 8899227871146853821
       vertices: []
       indices: 
       edges: []
@@ -120,10 +165,10 @@ TextureImporter:
       name: ss_frost_walk_1
       rect:
         serializedVersion: 2
-        x: 311
+        x: 232
         y: 0
-        width: 79
-        height: 195
+        width: 232
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,8 +176,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2efe87b057227b9a0800000000000000
-      internalID: -6217462874462687262
+      spriteID: 3d01779e383cdeef0800000000000000
+      internalID: -77190647270403885
       vertices: []
       indices: 
       edges: []
@@ -141,10 +186,10 @@ TextureImporter:
       name: ss_frost_walk_2
       rect:
         serializedVersion: 2
-        x: 541
+        x: 464
         y: 0
-        width: 81
-        height: 194
+        width: 232
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,8 +197,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a384a9ec7179ffa40800000000000000
-      internalID: 5404204206374144058
+      spriteID: 64aae5b77f52bb530800000000000000
+      internalID: 3871730049512024646
       vertices: []
       indices: 
       edges: []

@@ -10,7 +10,6 @@ public class PlayerCombat : MonoBehaviour
     public LayerMask enemyLayer;
 
     public float attackRate = 2f;
-    public int damage = 10;
     float nextAttack = 0;
     //public Player player;
    
@@ -36,7 +35,7 @@ public class PlayerCombat : MonoBehaviour
 
             //ADD THAT WHEN THE ENEMY DIES IT ADDS 1 TO PLAYER KILL COUNT POWER UP
             //enemy.GetComponent<Player>().KillCount(2);
-           enemy.GetComponent<EnemyTest>().TakeDamage(damage);
+
         }
     }
 

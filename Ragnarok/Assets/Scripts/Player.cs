@@ -36,7 +36,7 @@ public class Player : MonoBehaviour
     [Header("Player Health")]
     public int maxHealth = 100;
     public static int currentPlayerHealth;
-    public PlayerHealthBar playerHealthBar;
+   // public PlayerHealthBar playerHealthBar;
     public int maxKillAmount  = 0;
     public static int currentPlayerKill;
 
@@ -45,9 +45,8 @@ public class Player : MonoBehaviour
     void Awake ()
     {
         currentPlayerHealth = maxHealth;
-        
         currentPlayerKill = maxKillAmount;
-        playerHealthBar.setMaxHealth(maxKillAmount);
+        //playerHealthBar.setMaxHealth(maxKillAmount);
 
         animatorHeimdall = GetComponentInChildren<Animator>();
        // animatorOdin = GetComponentInChildren<Animator>();
@@ -165,7 +164,7 @@ public class Player : MonoBehaviour
     {
 
         currentPlayerKill += damage;
-        playerHealthBar.SetHealth(currentPlayerKill);
+        //playerHealthBar.SetHealth(currentPlayerKill);
 
     }
     public void  Die()

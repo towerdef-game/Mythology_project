@@ -14,18 +14,6 @@ TextureImporter:
   - first:
       213: 8735207716303240867
     second: ss_odin_walk_3
-  - first:
-      213: -4837768097322073972
-    second: ss_odin_walk_0
-  - first:
-      213: -8664992676849607511
-    second: ss_odin_walk_1
-  - first:
-      213: 4543367011616404259
-    second: ss_odin_walk_2
-  - first:
-      213: 5527195290018091410
-    second: ss_odin_walk_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -55,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -69,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 160
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -119,30 +107,6 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -150,10 +114,10 @@ TextureImporter:
       name: ss_odin_walk_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 25
         y: 0
-        width: 160
-        height: 160
+        width: 133
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,8 +125,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c80866d0c8bccdcb0800000000000000
-      internalID: -4837768097322073972
+      spriteID: ef8af972b0179fb70800000000000000
+      internalID: 8933295628589443326
       vertices: []
       indices: 
       edges: []
@@ -171,10 +135,10 @@ TextureImporter:
       name: ss_odin_walk_1
       rect:
         serializedVersion: 2
-        x: 160
+        x: 185
         y: 0
-        width: 160
-        height: 160
+        width: 133
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,8 +146,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ac940bc113cfb780800000000000000
-      internalID: -8664992676849607511
+      spriteID: 390298853712fa4f0800000000000000
+      internalID: -815396228240433005
       vertices: []
       indices: 
       edges: []
@@ -192,10 +156,10 @@ TextureImporter:
       name: ss_odin_walk_2
       rect:
         serializedVersion: 2
-        x: 320
+        x: 345
         y: 0
-        width: 160
-        height: 160
+        width: 133
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,8 +167,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 323bf9ba9384d0f30800000000000000
-      internalID: 4543367011616404259
+      spriteID: 3f60d8985ac97e810800000000000000
+      internalID: 1794575211321689843
       vertices: []
       indices: 
       edges: []
@@ -213,10 +177,10 @@ TextureImporter:
       name: ss_odin_walk_3
       rect:
         serializedVersion: 2
-        x: 480
+        x: 505
         y: 0
-        width: 160
-        height: 160
+        width: 133
+        height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,8 +188,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2919db9f4da84bc40800000000000000
-      internalID: 5527195290018091410
+      spriteID: 3ae71890321b93970800000000000000
+      internalID: 8735207716303240867
       vertices: []
       indices: 
       edges: []

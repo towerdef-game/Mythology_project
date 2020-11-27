@@ -217,7 +217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aefd3081983ed9a40a0d87c694fdd34c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 2090173111}
+  player: {fileID: 635179769}
 --- !u!1 &112581233
 GameObject:
   m_ObjectHideFlags: 0
@@ -231,7 +231,7 @@ GameObject:
   - component: {fileID: 112581234}
   - component: {fileID: 112581236}
   - component: {fileID: 112581235}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -250,7 +250,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2935643d5a84a7540826438be80b798a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 635179772}
+  maxHealth: 100
+  currentHealh: 0
 --- !u!61 &112581235
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -534,12 +536,10 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   pJumpSpeed: 1
-  animatorHeimdall: {fileID: 541417814}
   Anim: {fileID: 0}
   walkingSound: 0
   shootingSound: 0
   maxHealth: 10
-  maxKillAmount: 0
 --- !u!224 &606462859 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5359416369566031234, guid: 2c43e6726253ac94399ca479a8524205,
@@ -560,9 +560,10 @@ GameObject:
   - component: {fileID: 635179774}
   - component: {fileID: 635179773}
   - component: {fileID: 635179772}
+  - component: {fileID: 635179775}
   m_Layer: 0
   m_Name: ss_thor_idle_0
-  m_TagString: thor
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -577,7 +578,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1303805017}
   m_Father: {fileID: 1664636304}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -591,7 +593,7 @@ Animator:
   m_GameObject: {fileID: 635179768}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1f4294fcb92ba0f4f8ede370c0090bdb, type: 2}
+  m_Controller: {fileID: 9100000, guid: 778c8e1b2d0c1ec428b45939f92c4d8e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -671,12 +673,10 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   pJumpSpeed: 1
-  animatorHeimdall: {fileID: 635179770}
-  Anim: {fileID: 0}
+  Anim: {fileID: 635179770}
   walkingSound: 0
   shootingSound: 0
-  maxHealth: 10
-  maxKillAmount: 0
+  maxHealth: 100
 --- !u!50 &635179773
 Rigidbody2D:
   serializedVersion: 4
@@ -686,7 +686,7 @@ Rigidbody2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 635179768}
   m_BodyType: 0
-  m_Simulated: 1
+  m_Simulated: 0
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
@@ -724,6 +724,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.81, y: 1.19}
   m_EdgeRadius: 0
+--- !u!114 &635179775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 635179768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c5a1a6b51bf8c24fb4fe5d5b7475d32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 635179770}
+  attackPoint: {fileID: 1303805017}
+  attackRange: 1.2
+  Enemy:
+    serializedVersion: 2
+    m_Bits: 512
+  attackRate: 2
+  damage: 15
 --- !u!1 &944688050
 GameObject:
   m_ObjectHideFlags: 0
@@ -897,6 +917,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1303805016
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1303805017}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1303805017
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303805016}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.322, y: 0.292, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 635179769}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1494883492
 GameObject:
@@ -1285,12 +1335,10 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   pJumpSpeed: 1
-  animatorHeimdall: {fileID: 2015132360}
   Anim: {fileID: 0}
   walkingSound: 0
   shootingSound: 0
   maxHealth: 10
-  maxKillAmount: 0
 --- !u!1 &2090173107
 GameObject:
   m_ObjectHideFlags: 0

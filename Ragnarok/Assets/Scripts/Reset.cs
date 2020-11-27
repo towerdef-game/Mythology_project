@@ -13,7 +13,7 @@ public class Reset : MonoBehaviour
         
             
              GameObject.FindGameObjectsWithTag("Player");
-             Player.currentPlayerHealth = 10;
+             Player.currentPlayerHealth = 100;
         
       
     }   

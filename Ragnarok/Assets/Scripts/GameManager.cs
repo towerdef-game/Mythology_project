@@ -30,6 +30,7 @@ private Player player;
 	{
 	
 	// GameObject.FindWithTag("Player").GetComponent<Player>().currentPlayerHealth.ToString();
+	GameObject.FindGameObjectsWithTag("Player");
 
 	}
 			
@@ -38,7 +39,7 @@ private Player player;
 	{
 		if(Player.currentPlayerHealth <=0)
 		{
-		PlayerDeath();
+		 ResetGame();
 		}
 	}
 	
@@ -49,12 +50,12 @@ private Player player;
     }
 
 
-	public void LoseLife(){
+	//public void LoseLife(){
 	
 		//health--;
-		int currentLevelIndex = SceneManager.GetActiveScene ().buildIndex;
-		SceneManager.LoadScene (currentLevelIndex);
-	}
+	//	int currentLevelIndex = SceneManager.GetActiveScene ().buildIndex;
+		//SceneManager.LoadScene (currentLevelIndex);
+	//}
 
 	private void ResetGame(){
 		//SceneManager.LoadScene ("Level1");

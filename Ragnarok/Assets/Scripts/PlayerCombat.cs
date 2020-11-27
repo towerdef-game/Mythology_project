@@ -7,11 +7,12 @@ public class PlayerCombat : MonoBehaviour
     public Animator animator;
     public Transform attackPoint;
     public float attackRange = 0.5f;
-    public LayerMask enemyLayer;
+    public LayerMask Enemy;
 
     public float attackRate = 2f;
     float nextAttack = 0;
-    //public Player player;
+   // public EnemyTest enemy;
+    public int damage = 10;
    
     void Update()
     {
@@ -27,14 +28,11 @@ public class PlayerCombat : MonoBehaviour
     public void Attack()
     {
         animator.SetTrigger("Attack");
-        Collider2D[] hit = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayer);
+        Collider2D[] hit = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, Enemy);
 
         foreach(Collider2D	enemy in hit)
         {
-            // TODO: ADD attack damage
-
-            //ADD THAT WHEN THE ENEMY DIES IT ADDS 1 TO PLAYER KILL COUNT POWER UP
-            //enemy.GetComponent<Player>().KillCount(2);
+            enemy.GetComponent<EnemyTest>().TakeDamageEnemy(damage);
 
         }
     }

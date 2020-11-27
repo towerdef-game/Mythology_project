@@ -3,6 +3,7 @@ guid: a3d001af9a7fc0b4b8c8631e6e0d5015
 TextureImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   internalIDToNameTable: []
 =======
   internalIDToNameTable:
@@ -357,6 +358,9 @@ TextureImporter:
 =======
 >>>>>>> parent of 562a73c... blah
 >>>>>>> parent of 470e15b... SS Adjustments
+=======
+  internalIDToNameTable: []
+>>>>>>> parent of ed7c658... trying to fix
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -434,6 +438,7 @@ TextureImporter:
     textureFormat: -1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     textureCompression: 0
 =======
     textureCompression: 1
@@ -465,6 +470,9 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
+=======
+    textureCompression: 0
+>>>>>>> parent of ed7c658... trying to fix
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -473,6 +481,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
+<<<<<<< HEAD
     sprites:
     - serializedVersion: 2
       name: ss_heim_attack_0
@@ -2712,6 +2721,9 @@ TextureImporter:
 =======
 >>>>>>> parent of d9c17d4... have attack animations done for heimdall and odin, they kill the eney when they do enough damage
 >>>>>>> parent of 562a73c... blah
+=======
+    sprites: []
+>>>>>>> parent of ed7c658... trying to fix
     outline: []
     physicsShape: []
     bones: []

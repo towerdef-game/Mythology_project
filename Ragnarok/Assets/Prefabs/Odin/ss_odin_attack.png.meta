@@ -4,44 +4,21 @@ TextureImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-  internalIDToNameTable: []
-=======
-  internalIDToNameTable:
-  - first:
-      213: -9074852898480637348
-    second: ss_odin_attack_0
-  - first:
-      213: -856537105959527343
-    second: ss_odin_attack_1
-  - first:
-      213: 2373995132300502862
-    second: ss_odin_attack_2
-=======
-  internalIDToNameTable:
-  - first:
-      213: -9074852898480637348
-    second: ss_odin_attack_0
-  - first:
-      213: -856537105959527343
-    second: ss_odin_attack_1
-  - first:
-      213: 2373995132300502862
-    second: ss_odin_attack_2
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 1263d3f... tring to fix
+  internalIDToNameTable: []
+=======
+  internalIDToNameTable:
   - first:
-      213: 6432496159059740234
+      213: -9074852898480637348
     second: ss_odin_attack_0
   - first:
-      213: 7415272079001270310
+      213: -856537105959527343
     second: ss_odin_attack_1
   - first:
-      213: -1559745165152974998
+      213: 2373995132300502862
     second: ss_odin_attack_2
-=======
-  internalIDToNameTable: []
->>>>>>> parent of d9c17d4... have attack animations done for heimdall and odin, they kill the eney when they do enough damage
-=======
->>>>>>> parent of 562a73c... blah
 >>>>>>> parent of 470e15b... SS Adjustments
 =======
   internalIDToNameTable: []
@@ -80,7 +57,7 @@ TextureImporter:
     mipBias: -100
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -101,21 +78,20 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< HEAD
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -124,6 +100,9 @@ TextureImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 1263d3f... tring to fix
     textureCompression: 0
 =======
     textureCompression: 1
@@ -140,6 +119,7 @@ TextureImporter:
     textureFormat: -1
     textureCompression: 1
 >>>>>>> parent of 470e15b... SS Adjustments
+<<<<<<< HEAD
 =======
     textureCompression: 1
 >>>>>>> parent of 562a73c... blah
@@ -158,6 +138,8 @@ TextureImporter:
 =======
     textureCompression: 0
 >>>>>>> parent of ed7c658... trying to fix
+=======
+>>>>>>> parent of 1263d3f... tring to fix
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -166,6 +148,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     sprites:
     - serializedVersion: 2
@@ -234,9 +217,10 @@ TextureImporter:
 =======
   spriteSheet:
     serializedVersion: 2
+=======
+>>>>>>> parent of 1263d3f... tring to fix
 <<<<<<< HEAD
     sprites: []
-<<<<<<< HEAD
 =======
     sprites:
     - serializedVersion: 2
@@ -303,12 +287,15 @@ TextureImporter:
       edges: []
       weights: []
 >>>>>>> parent of 470e15b... SS Adjustments
+<<<<<<< HEAD
 =======
 >>>>>>> parent of d9c17d4... have attack animations done for heimdall and odin, they kill the eney when they do enough damage
 >>>>>>> parent of 562a73c... blah
 =======
     sprites: []
 >>>>>>> parent of ed7c658... trying to fix
+=======
+>>>>>>> parent of 1263d3f... tring to fix
     outline: []
     physicsShape: []
     bones: []

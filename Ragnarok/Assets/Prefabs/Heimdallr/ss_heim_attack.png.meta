@@ -4,359 +4,171 @@ TextureImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-  internalIDToNameTable: []
-=======
-  internalIDToNameTable:
-  - first:
-      213: -2761111006510712700
-    second: ss_heim_attack_0
-  - first:
-      213: -4012236614946593298
-    second: ss_heim_attack_1
-  - first:
-      213: -9177305515781374006
-    second: ss_heim_attack_2
-  - first:
-      213: -279972782313815532
-    second: ss_heim_attack_3
-  - first:
-      213: 1178383411805689840
-    second: ss_heim_attack_4
-  - first:
-      213: -3922056770044961995
-    second: ss_heim_attack_5
-  - first:
-      213: 5369685045544604487
-    second: ss_heim_attack_6
-  - first:
-      213: -5181450491873189319
-    second: ss_heim_attack_7
-  - first:
-      213: -4442210916290306049
-    second: ss_heim_attack_8
-  - first:
-      213: 1049433060811660008
-    second: ss_heim_attack_9
-  - first:
-      213: 5773135581668100667
-    second: ss_heim_attack_10
-  - first:
-      213: -5378984607700566812
-    second: ss_heim_attack_11
-  - first:
-      213: -3651843018257647625
-    second: ss_heim_attack_12
-  - first:
-      213: 3315935022376572181
-    second: ss_heim_attack_13
-  - first:
-      213: -1779659788691574658
-    second: ss_heim_attack_14
-  - first:
-      213: -2154202908228436663
-    second: ss_heim_attack_15
-  - first:
-      213: -4941023922939658714
-    second: ss_heim_attack_16
-  - first:
-      213: 7811107534922796540
-    second: ss_heim_attack_17
-  - first:
-      213: 6426478605140031411
-    second: ss_heim_attack_18
-  - first:
-      213: -162743229244647447
-    second: ss_heim_attack_19
-  - first:
-      213: 7139787056412872221
-    second: ss_heim_attack_20
-  - first:
-      213: -4117250865663656106
-    second: ss_heim_attack_21
-  - first:
-      213: 3146526461701594397
-    second: ss_heim_attack_22
-  - first:
-      213: -4245097767256853875
-    second: ss_heim_attack_23
-  - first:
-      213: -8738885849107602040
-    second: ss_heim_attack_24
-  - first:
-      213: 724537307511923554
-    second: ss_heim_attack_25
-  - first:
-      213: 2482277299682309709
-    second: ss_heim_attack_26
-  - first:
-      213: 2788071424765108261
-    second: ss_heim_attack_27
-  - first:
-      213: -6246563527696037355
-    second: ss_heim_attack_28
-  - first:
-      213: 5096478269616367279
-    second: ss_heim_attack_29
-  - first:
-      213: 1750022029654124427
-    second: ss_heim_attack_30
-  - first:
-      213: -5207815575719882216
-    second: ss_heim_attack_31
-  - first:
-      213: -3590169567961362995
-    second: ss_heim_attack_32
-  - first:
-      213: 693667713168780184
-    second: ss_heim_attack_33
-  - first:
-      213: 9151184884300249011
-    second: ss_heim_attack_34
-  - first:
-      213: 5278701688626591278
-    second: ss_heim_attack_35
-  - first:
-      213: 9201258985821754035
-    second: ss_heim_attack_36
-  - first:
-      213: -2613544894747475684
-    second: ss_heim_attack_37
-  - first:
-      213: 2343164784629957013
-    second: ss_heim_attack_38
-  - first:
-      213: 6757119674185104363
-    second: ss_heim_attack_39
-  - first:
-      213: 5053486295058279987
-    second: ss_heim_attack_40
-  - first:
-      213: 4752964622991054761
-    second: ss_heim_attack_41
-  - first:
-      213: 2073034820427684631
-    second: ss_heim_attack_42
-  - first:
-      213: -5289134994142384291
-    second: ss_heim_attack_43
-  - first:
-      213: 8253868754572013804
-    second: ss_heim_attack_44
-  - first:
-      213: 3944584607336198147
-    second: ss_heim_attack_45
-  - first:
-      213: -372698604938204270
-    second: ss_heim_attack_46
-  - first:
-      213: 6113497793028136891
-    second: ss_heim_attack_47
-  - first:
-      213: 5518512101756343102
-    second: ss_heim_attack_48
-  - first:
-      213: -6830794545184270623
-    second: ss_heim_attack_49
-  - first:
-      213: -7936005890690620440
-    second: ss_heim_attack_50
-  - first:
-      213: -8479282960259499555
-    second: ss_heim_attack_51
-  - first:
-      213: 9003745635352163196
-    second: ss_heim_attack_52
-=======
-  internalIDToNameTable:
-  - first:
-      213: -2761111006510712700
-    second: ss_heim_attack_0
-  - first:
-      213: -4012236614946593298
-    second: ss_heim_attack_1
-  - first:
-      213: -9177305515781374006
-    second: ss_heim_attack_2
-  - first:
-      213: -279972782313815532
-    second: ss_heim_attack_3
-  - first:
-      213: 1178383411805689840
-    second: ss_heim_attack_4
-  - first:
-      213: -3922056770044961995
-    second: ss_heim_attack_5
-  - first:
-      213: 5369685045544604487
-    second: ss_heim_attack_6
-  - first:
-      213: -5181450491873189319
-    second: ss_heim_attack_7
-  - first:
-      213: -4442210916290306049
-    second: ss_heim_attack_8
-  - first:
-      213: 1049433060811660008
-    second: ss_heim_attack_9
-  - first:
-      213: 5773135581668100667
-    second: ss_heim_attack_10
-  - first:
-      213: -5378984607700566812
-    second: ss_heim_attack_11
-  - first:
-      213: -3651843018257647625
-    second: ss_heim_attack_12
-  - first:
-      213: 3315935022376572181
-    second: ss_heim_attack_13
-  - first:
-      213: -1779659788691574658
-    second: ss_heim_attack_14
-  - first:
-      213: -2154202908228436663
-    second: ss_heim_attack_15
-  - first:
-      213: -4941023922939658714
-    second: ss_heim_attack_16
-  - first:
-      213: 7811107534922796540
-    second: ss_heim_attack_17
-  - first:
-      213: 6426478605140031411
-    second: ss_heim_attack_18
-  - first:
-      213: -162743229244647447
-    second: ss_heim_attack_19
-  - first:
-      213: 7139787056412872221
-    second: ss_heim_attack_20
-  - first:
-      213: -4117250865663656106
-    second: ss_heim_attack_21
-  - first:
-      213: 3146526461701594397
-    second: ss_heim_attack_22
-  - first:
-      213: -4245097767256853875
-    second: ss_heim_attack_23
-  - first:
-      213: -8738885849107602040
-    second: ss_heim_attack_24
-  - first:
-      213: 724537307511923554
-    second: ss_heim_attack_25
-  - first:
-      213: 2482277299682309709
-    second: ss_heim_attack_26
-  - first:
-      213: 2788071424765108261
-    second: ss_heim_attack_27
-  - first:
-      213: -6246563527696037355
-    second: ss_heim_attack_28
-  - first:
-      213: 5096478269616367279
-    second: ss_heim_attack_29
-  - first:
-      213: 1750022029654124427
-    second: ss_heim_attack_30
-  - first:
-      213: -5207815575719882216
-    second: ss_heim_attack_31
-  - first:
-      213: -3590169567961362995
-    second: ss_heim_attack_32
-  - first:
-      213: 693667713168780184
-    second: ss_heim_attack_33
-  - first:
-      213: 9151184884300249011
-    second: ss_heim_attack_34
-  - first:
-      213: 5278701688626591278
-    second: ss_heim_attack_35
-  - first:
-      213: 9201258985821754035
-    second: ss_heim_attack_36
-  - first:
-      213: -2613544894747475684
-    second: ss_heim_attack_37
-  - first:
-      213: 2343164784629957013
-    second: ss_heim_attack_38
-  - first:
-      213: 6757119674185104363
-    second: ss_heim_attack_39
-  - first:
-      213: 5053486295058279987
-    second: ss_heim_attack_40
-  - first:
-      213: 4752964622991054761
-    second: ss_heim_attack_41
-  - first:
-      213: 2073034820427684631
-    second: ss_heim_attack_42
-  - first:
-      213: -5289134994142384291
-    second: ss_heim_attack_43
-  - first:
-      213: 8253868754572013804
-    second: ss_heim_attack_44
-  - first:
-      213: 3944584607336198147
-    second: ss_heim_attack_45
-  - first:
-      213: -372698604938204270
-    second: ss_heim_attack_46
-  - first:
-      213: 6113497793028136891
-    second: ss_heim_attack_47
-  - first:
-      213: 5518512101756343102
-    second: ss_heim_attack_48
-  - first:
-      213: -6830794545184270623
-    second: ss_heim_attack_49
-  - first:
-      213: -7936005890690620440
-    second: ss_heim_attack_50
-  - first:
-      213: -8479282960259499555
-    second: ss_heim_attack_51
-  - first:
-      213: 9003745635352163196
-    second: ss_heim_attack_52
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 1263d3f... tring to fix
+  internalIDToNameTable: []
+=======
+  internalIDToNameTable:
   - first:
-      213: -5016483786637508761
+      213: -2761111006510712700
     second: ss_heim_attack_0
   - first:
-      213: 7716814835603642578
+      213: -4012236614946593298
     second: ss_heim_attack_1
   - first:
-      213: -2660571231660531002
+      213: -9177305515781374006
     second: ss_heim_attack_2
   - first:
-      213: 7611571662434445916
+      213: -279972782313815532
     second: ss_heim_attack_3
   - first:
-      213: -8450886322040733624
+      213: 1178383411805689840
     second: ss_heim_attack_4
   - first:
-      213: 6351255783279780273
+      213: -3922056770044961995
     second: ss_heim_attack_5
   - first:
-      213: 4948600874936823073
+      213: 5369685045544604487
     second: ss_heim_attack_6
   - first:
-      213: -6781460469276170535
+      213: -5181450491873189319
     second: ss_heim_attack_7
-=======
-  internalIDToNameTable: []
->>>>>>> parent of d9c17d4... have attack animations done for heimdall and odin, they kill the eney when they do enough damage
-=======
->>>>>>> parent of 562a73c... blah
+  - first:
+      213: -4442210916290306049
+    second: ss_heim_attack_8
+  - first:
+      213: 1049433060811660008
+    second: ss_heim_attack_9
+  - first:
+      213: 5773135581668100667
+    second: ss_heim_attack_10
+  - first:
+      213: -5378984607700566812
+    second: ss_heim_attack_11
+  - first:
+      213: -3651843018257647625
+    second: ss_heim_attack_12
+  - first:
+      213: 3315935022376572181
+    second: ss_heim_attack_13
+  - first:
+      213: -1779659788691574658
+    second: ss_heim_attack_14
+  - first:
+      213: -2154202908228436663
+    second: ss_heim_attack_15
+  - first:
+      213: -4941023922939658714
+    second: ss_heim_attack_16
+  - first:
+      213: 7811107534922796540
+    second: ss_heim_attack_17
+  - first:
+      213: 6426478605140031411
+    second: ss_heim_attack_18
+  - first:
+      213: -162743229244647447
+    second: ss_heim_attack_19
+  - first:
+      213: 7139787056412872221
+    second: ss_heim_attack_20
+  - first:
+      213: -4117250865663656106
+    second: ss_heim_attack_21
+  - first:
+      213: 3146526461701594397
+    second: ss_heim_attack_22
+  - first:
+      213: -4245097767256853875
+    second: ss_heim_attack_23
+  - first:
+      213: -8738885849107602040
+    second: ss_heim_attack_24
+  - first:
+      213: 724537307511923554
+    second: ss_heim_attack_25
+  - first:
+      213: 2482277299682309709
+    second: ss_heim_attack_26
+  - first:
+      213: 2788071424765108261
+    second: ss_heim_attack_27
+  - first:
+      213: -6246563527696037355
+    second: ss_heim_attack_28
+  - first:
+      213: 5096478269616367279
+    second: ss_heim_attack_29
+  - first:
+      213: 1750022029654124427
+    second: ss_heim_attack_30
+  - first:
+      213: -5207815575719882216
+    second: ss_heim_attack_31
+  - first:
+      213: -3590169567961362995
+    second: ss_heim_attack_32
+  - first:
+      213: 693667713168780184
+    second: ss_heim_attack_33
+  - first:
+      213: 9151184884300249011
+    second: ss_heim_attack_34
+  - first:
+      213: 5278701688626591278
+    second: ss_heim_attack_35
+  - first:
+      213: 9201258985821754035
+    second: ss_heim_attack_36
+  - first:
+      213: -2613544894747475684
+    second: ss_heim_attack_37
+  - first:
+      213: 2343164784629957013
+    second: ss_heim_attack_38
+  - first:
+      213: 6757119674185104363
+    second: ss_heim_attack_39
+  - first:
+      213: 5053486295058279987
+    second: ss_heim_attack_40
+  - first:
+      213: 4752964622991054761
+    second: ss_heim_attack_41
+  - first:
+      213: 2073034820427684631
+    second: ss_heim_attack_42
+  - first:
+      213: -5289134994142384291
+    second: ss_heim_attack_43
+  - first:
+      213: 8253868754572013804
+    second: ss_heim_attack_44
+  - first:
+      213: 3944584607336198147
+    second: ss_heim_attack_45
+  - first:
+      213: -372698604938204270
+    second: ss_heim_attack_46
+  - first:
+      213: 6113497793028136891
+    second: ss_heim_attack_47
+  - first:
+      213: 5518512101756343102
+    second: ss_heim_attack_48
+  - first:
+      213: -6830794545184270623
+    second: ss_heim_attack_49
+  - first:
+      213: -7936005890690620440
+    second: ss_heim_attack_50
+  - first:
+      213: -8479282960259499555
+    second: ss_heim_attack_51
+  - first:
+      213: 9003745635352163196
+    second: ss_heim_attack_52
 >>>>>>> parent of 470e15b... SS Adjustments
 =======
   internalIDToNameTable: []
@@ -395,7 +207,7 @@ TextureImporter:
     mipBias: -100
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -416,21 +228,20 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< HEAD
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -439,6 +250,9 @@ TextureImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 1263d3f... tring to fix
     textureCompression: 0
 =======
     textureCompression: 1
@@ -455,6 +269,7 @@ TextureImporter:
     textureFormat: -1
     textureCompression: 1
 >>>>>>> parent of 470e15b... SS Adjustments
+<<<<<<< HEAD
 =======
     textureCompression: 1
 >>>>>>> parent of 562a73c... blah
@@ -473,6 +288,8 @@ TextureImporter:
 =======
     textureCompression: 0
 >>>>>>> parent of ed7c658... trying to fix
+=======
+>>>>>>> parent of 1263d3f... tring to fix
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -481,6 +298,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     sprites:
     - serializedVersion: 2
@@ -1603,6 +1421,9 @@ TextureImporter:
     sprites: []
 <<<<<<< HEAD
 =======
+    sprites: []
+>>>>>>> parent of 1263d3f... tring to fix
+=======
     sprites:
     - serializedVersion: 2
       name: ss_heim_attack_0
@@ -2718,12 +2539,15 @@ TextureImporter:
       edges: []
       weights: []
 >>>>>>> parent of 470e15b... SS Adjustments
+<<<<<<< HEAD
 =======
 >>>>>>> parent of d9c17d4... have attack animations done for heimdall and odin, they kill the eney when they do enough damage
 >>>>>>> parent of 562a73c... blah
 =======
     sprites: []
 >>>>>>> parent of ed7c658... trying to fix
+=======
+>>>>>>> parent of 1263d3f... tring to fix
     outline: []
     physicsShape: []
     bones: []

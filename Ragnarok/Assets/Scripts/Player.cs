@@ -126,6 +126,12 @@ public class Player : MonoBehaviour
         {
             Die();
         }  
+
+        if (Input.GetKeyUp(KeyCode.Z))
+        {
+           
+ TakeDamage(100);
+        }
     }
 
     void Flip()

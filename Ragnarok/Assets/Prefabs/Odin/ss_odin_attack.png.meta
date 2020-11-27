@@ -5,6 +5,7 @@ TextureImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 1263d3f... tring to fix
   internalIDToNameTable: []
@@ -23,6 +24,9 @@ TextureImporter:
 =======
   internalIDToNameTable: []
 >>>>>>> parent of ed7c658... trying to fix
+=======
+  internalIDToNameTable: []
+>>>>>>> parent of d9c17d4... have attack animations done for heimdall and odin, they kill the eney when they do enough damage
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -92,6 +96,7 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -296,6 +301,11 @@ TextureImporter:
 >>>>>>> parent of ed7c658... trying to fix
 =======
 >>>>>>> parent of 1263d3f... tring to fix
+=======
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+>>>>>>> parent of d9c17d4... have attack animations done for heimdall and odin, they kill the eney when they do enough damage
     outline: []
     physicsShape: []
     bones: []

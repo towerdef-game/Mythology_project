@@ -11,7 +11,15 @@ public class Player : MonoBehaviour
     public Collider2D playerCollider;
     public LayerMask JumpLayer;
     public float pJumpSpeed = 100f;
+
+	//public Animator animatorHeimdall;
+    	//public Animator animatorOdin;
+        	//public Animator animatorThor;
+
 	public Animator Anim;
+    //	public Animator animatorOdin;
+        //	public Animator animatorThor;
+
     bool facingRight = true;
     //bool death = true;
 
@@ -29,22 +37,34 @@ public class Player : MonoBehaviour
     public int maxHealth = 100;
     public static int currentPlayerHealth;
    // public PlayerHealthBar playerHealthBar;
-  //  public int maxKillAmount  = 0;
-   // public static int currentPlayerKill;
+    public int maxKillAmount  = 0;
+    public static int currentPlayerKill;
 
 
     // Start is called before the first frame update
     void Awake ()
     {
         currentPlayerHealth = maxHealth;
-       // currentPlayerKill = maxKillAmount;
+        currentPlayerKill = maxKillAmount;
         //playerHealthBar.setMaxHealth(maxKillAmount);
+        Anim = GetComponent<Animator>();
+     //   animatorHeimdall = GetComponentInChildren<Animator>();
+       // animatorOdin = GetComponentInChildren<Animator>();
+     //  animatorHeimdall = GetComponentInChildren<Animator>();
+      //  animatorOdin = GetComponentInChildren<Animator>();
+
+       // animatorThor = GetComponentInChildren<Animator>();
     }
 
     void Start()
     {
         playerRigidbody = GetComponent<Rigidbody2D> ();
         Anim = GetComponent<Animator>();
+       // audio1 = GetComponent<AudioSource>();
+       // audio1.clip = walking;
+
+        //audio2 = GetComponent<AudioSource>();
+        //audio1.clip = shooting;
     }
 
     // Update is called once per frame
@@ -106,12 +126,6 @@ public class Player : MonoBehaviour
         {
             Die();
         }  
-        if (Input.GetKey (KeyCode.Z)) 
-        {
-         TakeDamage(100);
-        }
-
-
     }
 
     void Flip()
@@ -146,13 +160,13 @@ public class Player : MonoBehaviour
        // playerHealthBar.SetHealth(currentPlayerHealth);
 
     }
-   // public void KillCount(int damage)
-    //{
+    public void KillCount(int damage)
+    {
 
-       // currentPlayerKill += damage;
+        currentPlayerKill += damage;
         //playerHealthBar.SetHealth(currentPlayerKill);
 
-   // }
+    }
     public void  Die()
     {
     Destroy(this.gameObject);

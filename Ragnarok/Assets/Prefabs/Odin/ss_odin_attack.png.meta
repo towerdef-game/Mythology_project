@@ -1,7 +1,20 @@
 fileFormatVersion: 2
 guid: 6e6a894fa731b2945a50cf475209b860
 TextureImporter:
+<<<<<<< HEAD
   internalIDToNameTable: []
+=======
+  internalIDToNameTable:
+  - first:
+      213: -9074852898480637348
+    second: ss_odin_attack_0
+  - first:
+      213: -856537105959527343
+    second: ss_odin_attack_1
+  - first:
+      213: 2373995132300502862
+    second: ss_odin_attack_2
+>>>>>>> parent of 470e15b... SS Adjustments
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -76,7 +89,23 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
+<<<<<<< HEAD
     textureCompression: 0
+=======
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+>>>>>>> parent of 470e15b... SS Adjustments
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -85,7 +114,74 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
+<<<<<<< HEAD
     sprites: []
+=======
+    sprites:
+    - serializedVersion: 2
+      name: ss_odin_attack_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 0
+        width: 152
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a33259e55af0280800000000000000
+      internalID: -9074852898480637348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_odin_attack_1
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 0
+        width: 152
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c575e4a08fc14f0800000000000000
+      internalID: -856537105959527343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_odin_attack_2
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 0
+        width: 152
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47274faeff12f020800000000000000
+      internalID: 2373995132300502862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+>>>>>>> parent of 470e15b... SS Adjustments
     outline: []
     physicsShape: []
     bones: []

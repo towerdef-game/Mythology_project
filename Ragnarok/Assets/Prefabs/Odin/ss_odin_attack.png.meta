@@ -20,6 +20,7 @@ TextureImporter:
   - first:
       213: 2373995132300502862
     second: ss_odin_attack_2
+<<<<<<< HEAD
 >>>>>>> parent of 470e15b... SS Adjustments
 =======
   internalIDToNameTable: []
@@ -27,6 +28,8 @@ TextureImporter:
 =======
   internalIDToNameTable: []
 >>>>>>> parent of d9c17d4... have attack animations done for heimdall and odin, they kill the eney when they do enough damage
+=======
+>>>>>>> parent of 470e15b... SS Adjustments
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -123,6 +126,7 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
+<<<<<<< HEAD
 >>>>>>> parent of 470e15b... SS Adjustments
 <<<<<<< HEAD
 =======
@@ -145,6 +149,8 @@ TextureImporter:
 >>>>>>> parent of ed7c658... trying to fix
 =======
 >>>>>>> parent of 1263d3f... tring to fix
+=======
+>>>>>>> parent of 470e15b... SS Adjustments
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0

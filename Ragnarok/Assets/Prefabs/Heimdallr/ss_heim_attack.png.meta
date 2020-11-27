@@ -170,6 +170,7 @@ TextureImporter:
   - first:
       213: 9003745635352163196
     second: ss_heim_attack_52
+<<<<<<< HEAD
 >>>>>>> parent of 470e15b... SS Adjustments
 =======
   internalIDToNameTable: []
@@ -177,6 +178,8 @@ TextureImporter:
 =======
   internalIDToNameTable: []
 >>>>>>> parent of d9c17d4... have attack animations done for heimdall and odin, they kill the eney when they do enough damage
+=======
+>>>>>>> parent of 470e15b... SS Adjustments
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -270,6 +273,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
+<<<<<<< HEAD
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -287,6 +291,8 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
+=======
+>>>>>>> parent of 470e15b... SS Adjustments
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -820,6 +826,8 @@ TextureImporter:
         height: 45
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
+=======
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -827,6 +835,600 @@ TextureImporter:
       bones: []
       spriteID: 885e04fee9d39b680800000000000000
       internalID: -8738885849107602040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_heim_attack_25
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 115
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26324c8a7d21e0a00800000000000000
+      internalID: 724537307511923554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_heim_attack_26
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 115
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4674996d02d27220800000000000000
+      internalID: 2482277299682309709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_heim_attack_27
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 84
+        width: 11
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520aa81603831b620800000000000000
+      internalID: 2788071424765108261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_heim_attack_28
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 115
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a44c8319fbf49a0800000000000000
+      internalID: -6246563527696037355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_heim_attack_29
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 84
+        width: 11
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa62bf1ebf35ab640800000000000000
+      internalID: 5096478269616367279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_heim_attack_30
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 114
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8764a293c3594810800000000000000
+      internalID: 1750022029654124427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_heim_attack_31
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 114
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8125879735f1ab7b0800000000000000
+      internalID: -5207815575719882216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_heim_attack_32
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 83
+        width: 11
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdce3aacc72d2ec0800000000000000
+      internalID: -3590169567961362995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_heim_attack_33
+      rect:
+        serializedVersion: 2
+        x: 2099
+        y: 115
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b25932c1760a900800000000000000
+      internalID: 693667713168780184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_heim_attack_34
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 84
+        width: 11
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7f3aeca2a8ffe70800000000000000
+      internalID: 9151184884300249011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_heim_attack_35
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 90
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26b7d1d737b14940800000000000000
+      internalID: 5278701688626591278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_heim_attack_36
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 90
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2d6481c4071bf70800000000000000
+      internalID: 9201258985821754035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_heim_attack_37
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 90
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c118a00f3c2dabbd0800000000000000
+      internalID: -2613544894747475684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_heim_attack_38
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 89
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591c21ef4f7948020800000000000000
+      internalID: 2343164784629957013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_heim_attack_39
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 89
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb3b9cfa8c16cd50800000000000000
+      internalID: 6757119674185104363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_heim_attack_40
+      rect:
+        serializedVersion: 2
+        x: 2101
+        y: 90
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ee046c207912640800000000000000
+      internalID: 5053486295058279987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_heim_attack_41
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 81
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7516f642ce5f140800000000000000
+      internalID: 4752964622991054761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_heim_attack_42
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 81
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b9b9e8f26e4cc10800000000000000
+      internalID: 2073034820427684631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_heim_attack_43
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 75
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f2e01feb73996b0800000000000000
+      internalID: -5289134994142384291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_heim_attack_44
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 81
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0f5f2c6e1ab8270800000000000000
+      internalID: 8253868754572013804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_heim_attack_45
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 75
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3007fb21dcafdb630800000000000000
+      internalID: 3944584607336198147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_heim_attack_46
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 80
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bef5ce798e3daf0800000000000000
+      internalID: -372698604938204270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_heim_attack_47
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 80
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf93902ad187d450800000000000000
+      internalID: 6113497793028136891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_heim_attack_48
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 74
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3391e9a481b59c40800000000000000
+      internalID: 5518512101756343102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_heim_attack_49
+      rect:
+        serializedVersion: 2
+        x: 2101
+        y: 81
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e69d906d842431a0800000000000000
+      internalID: -6830794545184270623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_heim_attack_50
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 75
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e36afd60b4add190800000000000000
+      internalID: -7936005890690620440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_heim_attack_51
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 65
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9b5b3a219835a80800000000000000
+      internalID: -8479282960259499555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ss_heim_attack_52
+      rect:
+        serializedVersion: 2
+        x: 2126
+        y: 65
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+>>>>>>> parent of 470e15b... SS Adjustments
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD
+      spriteID: 885e04fee9d39b680800000000000000
+      internalID: -8738885849107602040
+=======
+      spriteID: c73b32393fab3fc70800000000000000
+      internalID: 9003745635352163196
+>>>>>>> parent of 470e15b... SS Adjustments
       vertices: []
       indices: 
       edges: []

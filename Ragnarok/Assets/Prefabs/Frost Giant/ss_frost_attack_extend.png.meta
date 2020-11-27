@@ -100,7 +100,11 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
 <<<<<<< HEAD
+<<<<<<< HEAD
   spritePixelsToUnits: 100
+=======
+  spritePixelsToUnits: 360
+>>>>>>> parent of 470e15b... SS Adjustments
 =======
   spritePixelsToUnits: 360
 >>>>>>> parent of 470e15b... SS Adjustments

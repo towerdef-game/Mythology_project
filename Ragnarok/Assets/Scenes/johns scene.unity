@@ -584,7 +584,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   pJumpSpeed: 4
-  animatorHeimdall: {fileID: 0}
   Anim: {fileID: 1580211183}
   walkingSound: 0
   shootingSound: 0

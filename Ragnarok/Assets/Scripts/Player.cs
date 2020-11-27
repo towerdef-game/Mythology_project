@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
     public LayerMask JumpLayer;
     public float pJumpSpeed = 100f;
 
-	public Animator animatorHeimdall;
+	//public Animator animatorHeimdall;
     	//public Animator animatorOdin;
         	//public Animator animatorThor;
 
@@ -47,8 +47,8 @@ public class Player : MonoBehaviour
         currentPlayerHealth = maxHealth;
         currentPlayerKill = maxKillAmount;
         //playerHealthBar.setMaxHealth(maxKillAmount);
-
-        animatorHeimdall = GetComponentInChildren<Animator>();
+        Anim = GetComponent<Animator>();
+     //   animatorHeimdall = GetComponentInChildren<Animator>();
        // animatorOdin = GetComponentInChildren<Animator>();
      //  animatorHeimdall = GetComponentInChildren<Animator>();
       //  animatorOdin = GetComponentInChildren<Animator>();

@@ -35,13 +35,15 @@ public class Player : MonoBehaviour
     public int maxHealth = 100;
     public static int currentPlayerHealth;
    // public PlayerHealthBar playerHealthBar;
-   
+    public int maxKillAmount  = 0;
+    public static int currentPlayerKill;
 
 
     // Start is called before the first frame update
     void Awake ()
     {
-        
+        currentPlayerHealth = maxHealth;
+        currentPlayerKill = maxKillAmount;
         //playerHealthBar.setMaxHealth(maxKillAmount);
         Anim = GetComponent<Animator>();
         cam.GetComponent<camera>().player = this.transform;
@@ -112,6 +114,11 @@ public class Player : MonoBehaviour
             Die();
         }  
 
+        if (Input.GetKeyUp(KeyCode.Z))
+        {
+           
+ TakeDamage(100);
+        }
     }
 
     void Flip()
@@ -146,13 +153,13 @@ public class Player : MonoBehaviour
        // playerHealthBar.SetHealth(currentPlayerHealth);
 
     }
-    //public void KillCount(int damage)
-    //{
+    public void KillCount(int damage)
+    {
 
-       // currentPlayerKill += damage;
+        currentPlayerKill += damage;
         //playerHealthBar.SetHealth(currentPlayerKill);
 
-    //}
+    }
     public void  Die()
     {
     Destroy(this.gameObject);

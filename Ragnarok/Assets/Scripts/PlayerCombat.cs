@@ -23,11 +23,12 @@ public class PlayerCombat : MonoBehaviour
    public void Start()
    {
      //PowerTextRemainingTimer.text = timer.t
-     PowerTextRemainingTimer.SetText(timer.ToString());
+     //PowerTextRemainingTimer.SetText(timer.ToString());
    }
 
     void Update()
     {
+        PowerTextRemainingTimer.SetText(timer.ToString());
         if(Time.time >= nextAttack)
         {    
          if(Input.GetKeyDown(KeyCode.Mouse0 ))
@@ -47,12 +48,14 @@ public class PlayerCombat : MonoBehaviour
             PowerText.enabled = true;
            
 
-            if (Input.GetKeyDown (KeyCode.Z)) 
+            if (Input.GetKey (KeyCode.Z)) 
            {
                 PowerText.enabled = false;
                 PowerTextRemaining.enabled = true;
                 PowerTextRemainingTimer.enabled = true;
+                //timer--;
                 timer -= Time.deltaTime;
+              
                 StartCoroutine(("PowerUp"));
                 currentPlayerKill -= 5;
                 if(timer < 0)

@@ -16,7 +16,7 @@ public class PlayerCombat : MonoBehaviour
     public int currentPlayerKill;
     public int poweUp = 2;
     public TextMeshProUGUI PowerText;
-    public TextMeshProUGUI PowerTextRemaining;
+   // public TextMeshProUGUI PowerTextRemaining;
     public TextMeshProUGUI PowerTextRemainingTimer;
     public float timer = 3;
    
@@ -50,18 +50,20 @@ public class PlayerCombat : MonoBehaviour
             if (Input.GetKeyDown (KeyCode.Z)) 
            {
                 PowerText.enabled = false;
-                PowerTextRemaining.enabled = true;
+              //  PowerTextRemaining.enabled = true;
                 PowerTextRemainingTimer.enabled = true;
-                timer -= Time.deltaTime;
+                //  timer -= Time.deltaTime;
+                StartCoroutine(("countdown"));
                 StartCoroutine(("PowerUp"));
                 currentPlayerKill -= 5;
-                if(timer < 0)
-                {
-                    PowerTextRemaining.enabled = false;
-                    PowerTextRemainingTimer.enabled = false;     
-                }
+               
            
             }
+        }
+        if (timer <= 0)
+        {
+            // PowerTextRemaining.enabled = false;
+            PowerTextRemainingTimer.enabled = false;
         }
     }
 
@@ -83,8 +85,16 @@ public class PlayerCombat : MonoBehaviour
         return;
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
-
-    IEnumerator  PowerUp()
+    IEnumerator countdown()
+    {
+        while (timer >= 0)
+        {
+            PowerTextRemainingTimer.text = "Time remaining: " + timer.ToString();
+            yield return new WaitForSeconds(1f);
+            timer--;
+        }
+    }
+        IEnumerator  PowerUp()
     {
          damage *= poweUp;
          attackRange *= poweUp;

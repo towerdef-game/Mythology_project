@@ -10,11 +10,9 @@ public class Player : MonoBehaviour
 	public Rigidbody2D playerRigidbody;   
     public Collider2D playerCollider;
     public LayerMask JumpLayer;
+    
     public float pJumpSpeed = 100f;
-
-	//public Animator animatorHeimdall;
-    	//public Animator animatorOdin;
-        	//public Animator animatorThor;
+     public camera cam;
 
 	public Animator Anim;
     //	public Animator animatorOdin;
@@ -48,23 +46,14 @@ public class Player : MonoBehaviour
         currentPlayerKill = maxKillAmount;
         //playerHealthBar.setMaxHealth(maxKillAmount);
         Anim = GetComponent<Animator>();
-     //   animatorHeimdall = GetComponentInChildren<Animator>();
-       // animatorOdin = GetComponentInChildren<Animator>();
-     //  animatorHeimdall = GetComponentInChildren<Animator>();
-      //  animatorOdin = GetComponentInChildren<Animator>();
-
-       // animatorThor = GetComponentInChildren<Animator>();
+        cam.GetComponent<camera>().player = this.transform;
     }
 
     void Start()
     {
         playerRigidbody = GetComponent<Rigidbody2D> ();
         Anim = GetComponent<Animator>();
-       // audio1 = GetComponent<AudioSource>();
-       // audio1.clip = walking;
-
-        //audio2 = GetComponent<AudioSource>();
-        //audio1.clip = shooting;
+     
     }
 
     // Update is called once per frame
@@ -102,9 +91,7 @@ public class Player : MonoBehaviour
 
             Anim.SetBool("move", true);
          
-			//animatorOdin.SetBool ("move", true);
-            //animatorThor.SetBool ("move", true);
-            //animatorHeimdall.SetBool ("move", true);
+		
             walkingSound = true;
         }
         if (Input.GetKeyUp(KeyCode.A))

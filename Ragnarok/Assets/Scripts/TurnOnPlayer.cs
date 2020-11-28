@@ -8,7 +8,7 @@ public class TurnOnPlayer : MonoBehaviour
     // Start is called before the first frame update
     public void Awake()
     {
-        turnPlayerOn.SetActive(true);
+     //   turnPlayerOn.SetActive(true);
     }
 
     // Update is called once per frame

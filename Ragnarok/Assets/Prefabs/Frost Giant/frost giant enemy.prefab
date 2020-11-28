@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 184425724196346795}
   - component: {fileID: 184425724196346796}
   - component: {fileID: 184425724196346797}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: hotzone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79,7 +79,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 184425724421958413}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Raycast
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -112,9 +112,9 @@ GameObject:
   - component: {fileID: 184425724459404212}
   - component: {fileID: 184425724459404213}
   - component: {fileID: 184425724459404214}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: frost giant enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -210,7 +210,7 @@ GameObject:
   m_Component:
   - component: {fileID: 184425724548063226}
   - component: {fileID: 184425724548063225}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Enemy_sprites
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -293,7 +293,7 @@ GameObject:
   - component: {fileID: 184425724788631104}
   - component: {fileID: 184425724788631119}
   - component: {fileID: 184425724788631118}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Trigger area
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
@@ -362,7 +362,8 @@ GameObject:
   m_Component:
   - component: {fileID: 184425724816121900}
   - component: {fileID: 184425724816121899}
-  m_Layer: 0
+  - component: {fileID: 7224242186007642944}
+  m_Layer: 9
   m_Name: Enemy_Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -409,6 +410,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 2.0219812}
   m_EdgeRadius: 0
+--- !u!114 &7224242186007642944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 184425724816121901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2935643d5a84a7540826438be80b798a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thisobject: {fileID: 184425724459404215}
+  maxHealth: 100
+  currentHealh: 0
 --- !u!1 &184425725267856996
 GameObject:
   m_ObjectHideFlags: 0
@@ -419,8 +435,7 @@ GameObject:
   m_Component:
   - component: {fileID: 184425725267856995}
   - component: {fileID: 184425725267856994}
-  - component: {fileID: 184425725267856993}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: hitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -467,15 +482,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.10129917, y: 0.30145502}
   m_EdgeRadius: 0
---- !u!114 &184425725267856993
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 184425725267856996}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bff95baa237cafe4f829dd2e61e26fd2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

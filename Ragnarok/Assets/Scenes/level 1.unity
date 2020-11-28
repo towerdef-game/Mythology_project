@@ -202,7 +202,7 @@ GameObject:
   - component: {fileID: 642633718}
   - component: {fileID: 642633717}
   - component: {fileID: 642633719}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1780,7 +1780,7 @@ GameObject:
   m_Component:
   - component: {fileID: 690145607}
   - component: {fileID: 690145606}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1886,6 +1886,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8100014365024192791, guid: 432cb099e57641b49ab49d6bce53c473,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 8100014365900824873, guid: 432cb099e57641b49ab49d6bce53c473,
         type: 3}
       propertyPath: m_IsActive
@@ -1900,6 +1905,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8100014365959066245, guid: 432cb099e57641b49ab49d6bce53c473,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 432cb099e57641b49ab49d6bce53c473, type: 3}
@@ -2020,6 +2030,7 @@ GameObject:
   - component: {fileID: 1222342351}
   - component: {fileID: 1222342350}
   - component: {fileID: 1222342349}
+  - component: {fileID: 1222342352}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2085,13 +2096,25 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1222342348}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -40.99, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1222342352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222342348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aefd3081983ed9a40a0d87c694fdd34c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1614889324
 GameObject:
   m_ObjectHideFlags: 0
@@ -2201,5 +2224,5 @@ Transform:
   m_LocalScale: {x: 8.525135, y: 8.172976, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

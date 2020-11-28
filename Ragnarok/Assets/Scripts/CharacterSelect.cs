@@ -49,7 +49,7 @@ public class CharacterSelect : MonoBehaviour
     {
 
         PlayerPrefs.SetInt("CharacterSelected", index);
-            SceneManager.LoadScene("CodingMarcus");
+            SceneManager.LoadScene("level 1");
         
     }
 }

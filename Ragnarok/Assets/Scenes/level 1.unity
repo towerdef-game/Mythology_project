@@ -1896,6 +1896,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8100014365900824877, guid: 432cb099e57641b49ab49d6bce53c473,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8100014365900824877, guid: 432cb099e57641b49ab49d6bce53c473,
+        type: 3}
+      propertyPath: jump
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8100014365900824877, guid: 432cb099e57641b49ab49d6bce53c473,
+        type: 3}
+      propertyPath: pJumpSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8100014365900824878, guid: 432cb099e57641b49ab49d6bce53c473,
         type: 3}
       propertyPath: attackRange

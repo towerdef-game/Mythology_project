@@ -15,18 +15,12 @@ public class Player : MonoBehaviour
      public camera cam;
 
 	public Animator Anim;
-    //	public Animator animatorOdin;
-        //	public Animator animatorThor;
+
 
     bool facingRight = true;
     //bool death = true;
 
-    [Header("Audio")]
-
-  //  public AudioClip walking;
-    //public AudioSource audio1;
-    //public AudioClip shooting;
-   // public AudioSource audio2;
+  
 
     public bool walkingSound = false;
     public bool shootingSound = false;
@@ -136,9 +130,10 @@ public class Player : MonoBehaviour
     }
     public void OnCollisionEnter2D(Collision2D other)
     {
-        if(other.gameObject.tag == "Enemy")
+        if(other.gameObject.tag == "enemy")
         {
             TakeDamage(100);
+            Debug.Log("die");
         }
 
    }

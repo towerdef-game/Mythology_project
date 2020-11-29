@@ -8,6 +8,7 @@ TagManager:
   - thor
   - odin
   - heimdall
+  - enemy
   layers:
   - Default
   - TransparentFX
@@ -19,7 +20,7 @@ TagManager:
   - 
   - JumpLayer
   - Enemy
-  - 
+  - enemy
   - 
   - 
   - 

@@ -36,11 +36,7 @@ public class PlayerCombat : MonoBehaviour
                 nextAttack =  Time.time + 1f/attackRate;
             }
         }
-        //if (Input.GetKeyDown (KeyCode.Mouse1)) 
-           //{
-            //KillCount(1);
-            //currentPlayerKill ++;
-           // }
+    
 
         if(currentPlayerKill >= 3)
         {         

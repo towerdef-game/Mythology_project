@@ -44,4 +44,12 @@ public GameObject panel;
         //SceneFader.FadTo("Menu");
      
     }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.tag =="Player")
+        {
+            SceneManager.LoadScene("Win");
+        }
+    }
 }

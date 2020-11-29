@@ -1640,25 +1640,27 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'A and D key to Move the player.
+  m_text: 'A and D key to move the player.
 
-    Space bar to make the player Jump
+    Space bar to make the player Jump.
 
     Left
-    mouse button to Attack
+    mouse button to Attack.
+
+    Right mouse button for PowerUp.
 
 
-    The goal of the player is to make his way across
-    the game level defeating the enemies.
+    The goal of
+    the player is to make his way across the game level defeating the enemies.
 
 
-    The player will be killed if the
-    enemies hit the player.
+    The
+    player will be killed if the enemies hit the player.
 
 
-    After the player has killed enough enemies, the
-    player will recieve a power up which will double the range and the damage of
-    the player for 3 seconds.'
+    After the player has
+    killed enough enemies, the player will recieve a power up which will double the
+    range and the damage of the player for 3 seconds.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1727,12 +1729,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1678681059}
-    characterCount: 391
+    characterCount: 425
     spriteCount: 0
-    spaceCount: 78
-    wordCount: 76
+    spaceCount: 83
+    wordCount: 81
     linkCount: 0
-    lineCount: 11
+    lineCount: 12
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0

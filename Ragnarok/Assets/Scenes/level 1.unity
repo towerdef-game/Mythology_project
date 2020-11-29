@@ -378,6 +378,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 1.35
       objectReference: {fileID: 0}
+    - target: {fileID: 4165112926329286615, guid: f4b3489cb453a0845af0ae7297e59fb0,
+        type: 3}
+      propertyPath: leftlimit
+      value: 
+      objectReference: {fileID: 166801318}
+    - target: {fileID: 4165112926329286615, guid: f4b3489cb453a0845af0ae7297e59fb0,
+        type: 3}
+      propertyPath: rightlimit
+      value: 
+      objectReference: {fileID: 466620596}
     - target: {fileID: 7224242186007642944, guid: f4b3489cb453a0845af0ae7297e59fb0,
         type: 3}
       propertyPath: maxHealth
@@ -3704,7 +3714,7 @@ Transform:
   m_LocalScale: {x: 15.4, y: 8.172976, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &7512629710584085822
 PrefabInstance:

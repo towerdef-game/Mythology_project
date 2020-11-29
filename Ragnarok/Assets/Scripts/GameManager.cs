@@ -28,7 +28,7 @@ private Player player;
     // Use this for initialization
     void Start () 
 	{
-	
+	 Cursor.visible = false;
 	// GameObject.FindWithTag("Player").GetComponent<Player>().currentPlayerHealth.ToString();
 	GameObject.FindGameObjectsWithTag("Player");
 

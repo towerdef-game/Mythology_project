@@ -4087,10 +4087,15 @@ PrefabInstance:
       propertyPath: cam
       value: 
       objectReference: {fileID: 1222342352}
+    - target: {fileID: 8100014365024192797, guid: 432cb099e57641b49ab49d6bce53c473,
+        type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 772499866}
     - target: {fileID: 8100014365900824873, guid: 432cb099e57641b49ab49d6bce53c473,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8100014365900824874, guid: 432cb099e57641b49ab49d6bce53c473,
         type: 3}
@@ -4217,6 +4222,11 @@ PrefabInstance:
       propertyPath: cam
       value: 
       objectReference: {fileID: 1222342352}
+    - target: {fileID: 8100014365959066251, guid: 432cb099e57641b49ab49d6bce53c473,
+        type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 772499863}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 432cb099e57641b49ab49d6bce53c473, type: 3}
 --- !u!4 &772499861 stripped

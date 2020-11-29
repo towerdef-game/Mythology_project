@@ -71,7 +71,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thisobject: {fileID: 4165112926329286614}
-  maxHealth: 1
+  maxHealth: 10
   currentHealh: 0
 --- !u!1 &4165112926307217560
 GameObject:

@@ -3391,7 +3391,7 @@ MonoBehaviour:
     m_Bits: 512
   attackRate: 2
   damage: 15
-  currentPlayerKill: 5
+  currentPlayerKill: 0
   poweUp: 2
   PowerText: {fileID: 7512629710584085825}
   PowerTextRemainingTimer: {fileID: 7512629710584085823}

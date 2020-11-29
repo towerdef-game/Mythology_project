@@ -597,7 +597,7 @@ GameObject:
   - component: {fileID: 516273717}
   m_Layer: 10
   m_Name: Pit (2)
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3763,7 +3763,7 @@ GameObject:
   - component: {fileID: 736594226}
   m_Layer: 10
   m_Name: Pit (1)
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4600,7 +4600,7 @@ GameObject:
   - component: {fileID: 1391248527}
   m_Layer: 10
   m_Name: Pit
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5006,7 +5006,7 @@ GameObject:
   - component: {fileID: 1885292600}
   m_Layer: 10
   m_Name: Pit (3)
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

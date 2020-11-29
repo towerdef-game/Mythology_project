@@ -8,7 +8,7 @@ public class Menu : MonoBehaviour
 {
     
 
-
+public GameObject panel;
 
     public void PlayGamelevel()
     {
@@ -40,7 +40,8 @@ public class Menu : MonoBehaviour
 
     public void ReturnMenu()
     {
-        SceneManager.LoadScene("MainMenu");
+        //SceneManager.LoadScene("MainMenu");
         //SceneFader.FadTo("Menu");
+     
     }
 }

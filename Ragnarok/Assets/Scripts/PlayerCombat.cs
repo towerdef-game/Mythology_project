@@ -36,13 +36,13 @@ public class PlayerCombat : MonoBehaviour
                 nextAttack =  Time.time + 1f/attackRate;
             }
         }
-        if (Input.GetKeyDown (KeyCode.Mouse1)) 
-            {
+        //if (Input.GetKeyDown (KeyCode.Mouse1)) 
+           //{
             //KillCount(1);
-            currentPlayerKill ++;
-            }
+            //currentPlayerKill ++;
+           // }
 
-        if(currentPlayerKill >= 5)
+        if(currentPlayerKill >= 3)
         {         
             PowerText.enabled = true;
            

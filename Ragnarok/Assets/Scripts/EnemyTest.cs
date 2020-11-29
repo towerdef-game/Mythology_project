@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class EnemyTest : MonoBehaviour
 {
-    //private PlayerCombat player; 
+    private GameObject player; 
     public GameObject thisobject;
     public int maxHealth = 100;
     public int currentHealh;
     // Start is called before the first frame update
     void Start()
     {currentHealh = maxHealth;
-   // player.GetComponent<PlayerCombat>();
-        
+        // player.GetComponent<PlayerCombat>();
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     // Update is called once per frame
@@ -23,6 +23,7 @@ public class EnemyTest : MonoBehaviour
            // player.currentPlayerKill ++;
             
             Destroy(thisobject);
+            player.GetComponent<PlayerCombat>().currentPlayerKill++;
         }
     }
 

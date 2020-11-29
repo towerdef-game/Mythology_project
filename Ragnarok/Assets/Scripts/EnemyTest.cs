@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class EnemyTest : MonoBehaviour
 {
-    //public Player player; 
+    //private PlayerCombat player; 
     public GameObject thisobject;
     public int maxHealth = 100;
     public int currentHealh;
     // Start is called before the first frame update
     void Start()
     {currentHealh = maxHealth;
+   // player.GetComponent<PlayerCombat>();
         
     }
 
@@ -19,6 +20,8 @@ public class EnemyTest : MonoBehaviour
     {
         if(currentHealh <=0)
         {
+           // player.currentPlayerKill ++;
+            
             Destroy(thisobject);
         }
     }

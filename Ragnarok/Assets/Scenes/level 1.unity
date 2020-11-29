@@ -503,6 +503,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: frost giant enemy (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4165112926329286614, guid: f4b3489cb453a0845af0ae7297e59fb0,
+        type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4165112926329286615, guid: f4b3489cb453a0845af0ae7297e59fb0,
         type: 3}
       propertyPath: rightlimit
@@ -513,6 +518,11 @@ PrefabInstance:
       propertyPath: leftlimit
       value: 
       objectReference: {fileID: 514284661}
+    - target: {fileID: 4165112926564204563, guid: f4b3489cb453a0845af0ae7297e59fb0,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4b3489cb453a0845af0ae7297e59fb0, type: 3}
 --- !u!1 &466620595
@@ -3669,6 +3679,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 4165112926329286614, guid: f4b3489cb453a0845af0ae7297e59fb0,
+        type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4165112926329286615, guid: f4b3489cb453a0845af0ae7297e59fb0,
         type: 3}
       propertyPath: leftlimit
@@ -3679,6 +3694,11 @@ PrefabInstance:
       propertyPath: rightlimit
       value: 
       objectReference: {fileID: 466620596}
+    - target: {fileID: 4165112926564204563, guid: f4b3489cb453a0845af0ae7297e59fb0,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4165112927973052549, guid: f4b3489cb453a0845af0ae7297e59fb0,
         type: 3}
       propertyPath: m_Layer
@@ -4240,6 +4260,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: frost giant enemy (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4165112926329286614, guid: f4b3489cb453a0845af0ae7297e59fb0,
+        type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4165112926329286615, guid: f4b3489cb453a0845af0ae7297e59fb0,
         type: 3}
       propertyPath: leftlimit
@@ -4250,6 +4275,11 @@ PrefabInstance:
       propertyPath: rightlimit
       value: 
       objectReference: {fileID: 1596433020}
+    - target: {fileID: 4165112926564204563, guid: f4b3489cb453a0845af0ae7297e59fb0,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4b3489cb453a0845af0ae7297e59fb0, type: 3}
 --- !u!1 &997812013
@@ -4536,6 +4566,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: frost giant enemy (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4165112926329286614, guid: f4b3489cb453a0845af0ae7297e59fb0,
+        type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4165112926329286615, guid: f4b3489cb453a0845af0ae7297e59fb0,
         type: 3}
       propertyPath: leftlimit
@@ -4546,6 +4581,11 @@ PrefabInstance:
       propertyPath: rightlimit
       value: 
       objectReference: {fileID: 337151430}
+    - target: {fileID: 4165112926564204563, guid: f4b3489cb453a0845af0ae7297e59fb0,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4b3489cb453a0845af0ae7297e59fb0, type: 3}
 --- !u!1 &1391248526
@@ -4672,6 +4712,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: frost giant enemy (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4165112926329286614, guid: f4b3489cb453a0845af0ae7297e59fb0,
+        type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4165112926329286615, guid: f4b3489cb453a0845af0ae7297e59fb0,
         type: 3}
       propertyPath: leftlimit
@@ -4682,6 +4727,11 @@ PrefabInstance:
       propertyPath: rightlimit
       value: 
       objectReference: {fileID: 997812014}
+    - target: {fileID: 4165112926564204563, guid: f4b3489cb453a0845af0ae7297e59fb0,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4b3489cb453a0845af0ae7297e59fb0, type: 3}
 --- !u!1 &1596433019
@@ -4811,6 +4861,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: frost giant enemy (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4165112926329286614, guid: f4b3489cb453a0845af0ae7297e59fb0,
+        type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4165112926329286615, guid: f4b3489cb453a0845af0ae7297e59fb0,
         type: 3}
       propertyPath: leftlimit
@@ -4821,6 +4876,11 @@ PrefabInstance:
       propertyPath: rightlimit
       value: 
       objectReference: {fileID: 194357344}
+    - target: {fileID: 4165112926564204563, guid: f4b3489cb453a0845af0ae7297e59fb0,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4b3489cb453a0845af0ae7297e59fb0, type: 3}
 --- !u!1 &1827274492
@@ -5058,6 +5118,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: frost giant enemy (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4165112926329286614, guid: f4b3489cb453a0845af0ae7297e59fb0,
+        type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4165112926329286615, guid: f4b3489cb453a0845af0ae7297e59fb0,
         type: 3}
       propertyPath: leftlimit
@@ -5068,6 +5133,11 @@ PrefabInstance:
       propertyPath: rightlimit
       value: 
       objectReference: {fileID: 297820476}
+    - target: {fileID: 4165112926564204563, guid: f4b3489cb453a0845af0ae7297e59fb0,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4b3489cb453a0845af0ae7297e59fb0, type: 3}
 --- !u!1001 &7512629710584085822

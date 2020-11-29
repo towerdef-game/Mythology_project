@@ -1509,16 +1509,16 @@ MonoBehaviour:
 
 
     The goal of the player is to make his way across
-    the game level defeating the enmies.
+    the game level defeating the enemies.
 
 
-    The player will be killed if the enemies
-    hit the player.
+    The player will be killed if the
+    enemies hit the player.
 
 
-    After the player has killed enough enemies, the player
-    will recieve a power up which will double the range and the damage of the player
-    for 3 seconds.'
+    After the player has killed enough enemies, the
+    player will recieve a power up which will double the range and the damage of
+    the player for 3 seconds.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1587,7 +1587,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1678681059}
-    characterCount: 390
+    characterCount: 391
     spriteCount: 0
     spaceCount: 78
     wordCount: 76

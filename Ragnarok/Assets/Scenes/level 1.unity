@@ -5218,27 +5218,32 @@ PrefabInstance:
     - target: {fileID: 2029291327575935006, guid: 0954ae25bdd952f4b8e461b79066682e,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 27
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2029291327575935006, guid: 0954ae25bdd952f4b8e461b79066682e,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2029291327575935006, guid: 0954ae25bdd952f4b8e461b79066682e,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2029291327575935006, guid: 0954ae25bdd952f4b8e461b79066682e,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2029291327575935006, guid: 0954ae25bdd952f4b8e461b79066682e,
         type: 3}
       propertyPath: m_textInfo.pageCount
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2029291327575935006, guid: 0954ae25bdd952f4b8e461b79066682e,
+        type: 3}
+      propertyPath: m_text
+      value: Press The Right Mouse For PowerUp
       objectReference: {fileID: 0}
     - target: {fileID: 2286011895378925279, guid: 0954ae25bdd952f4b8e461b79066682e,
         type: 3}

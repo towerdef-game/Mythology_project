@@ -43,7 +43,7 @@ public class PlayerCombat : MonoBehaviour
             PowerText.enabled = true;
            
 
-            if (Input.GetKeyDown (KeyCode.Z)) 
+            if (Input.GetKeyDown (KeyCode.Mouse1)) 
            {
                 PowerText.enabled = false;
               //  PowerTextRemaining.enabled = true;

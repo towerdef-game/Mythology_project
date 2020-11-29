@@ -40,7 +40,7 @@ public GameObject panel;
 
     public void ReturnMenu()
     {
-        //SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("MainMenu");
         //SceneFader.FadTo("Menu");
      
     }

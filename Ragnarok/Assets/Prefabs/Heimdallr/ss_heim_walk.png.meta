@@ -14,6 +14,18 @@ TextureImporter:
   - first:
       213: 6286229682713900415
     second: ss_heim_walk_3
+  - first:
+      213: 711752782641060241
+    second: ss_heim_walk_0
+  - first:
+      213: 6766031108882412931
+    second: ss_heim_walk_1
+  - first:
+      213: -2803181207581264345
+    second: ss_heim_walk_2
+  - first:
+      213: -6468979352678406570
+    second: ss_heim_walk_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -43,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -107,6 +119,30 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -114,10 +150,10 @@ TextureImporter:
       name: ss_heim_walk_0
       rect:
         serializedVersion: 2
-        x: 50
+        x: 0
         y: 0
-        width: 91
-        height: 137
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,8 +161,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e2d1cf938b6b6120800000000000000
-      internalID: 2408136638824829672
+      spriteID: 19957318267a0e900800000000000000
+      internalID: 711752782641060241
       vertices: []
       indices: 
       edges: []
@@ -135,10 +171,10 @@ TextureImporter:
       name: ss_heim_walk_1
       rect:
         serializedVersion: 2
-        x: 210
+        x: 160
         y: 0
-        width: 91
-        height: 137
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,8 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff230ab638fbbc300800000000000000
-      internalID: 273522773553328895
+      spriteID: 385bd201275c5ed50800000000000000
+      internalID: 6766031108882412931
       vertices: []
       indices: 
       edges: []
@@ -156,10 +192,10 @@ TextureImporter:
       name: ss_heim_walk_2
       rect:
         serializedVersion: 2
-        x: 370
+        x: 320
         y: 0
-        width: 91
-        height: 136
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a74f5a9c187c0560800000000000000
-      internalID: 7281326761795602343
+      spriteID: 72671192b891919d0800000000000000
+      internalID: -2803181207581264345
       vertices: []
       indices: 
       edges: []
@@ -177,10 +213,10 @@ TextureImporter:
       name: ss_heim_walk_3
       rect:
         serializedVersion: 2
-        x: 530
+        x: 480
         y: 0
-        width: 91
-        height: 135
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,8 +224,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f75bdae279c2d3750800000000000000
-      internalID: 6286229682713900415
+      spriteID: 65664488d819936a0800000000000000
+      internalID: -6468979352678406570
       vertices: []
       indices: 
       edges: []

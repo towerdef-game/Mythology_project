@@ -8,6 +8,12 @@ TextureImporter:
   - first:
       213: -3769199522674023208
     second: ss_thor_idle_1
+  - first:
+      213: 3340912906866050712
+    second: ss_thor_idle_0
+  - first:
+      213: 2648763693596088389
+    second: ss_thor_idle_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -37,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -101,6 +107,30 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -108,10 +138,10 @@ TextureImporter:
       name: ss_thor_idle_0
       rect:
         serializedVersion: 2
-        x: 48
+        x: 0
         y: 0
-        width: 81
-        height: 119
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +149,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c988e5dcd1d9db4d0800000000000000
-      internalID: -3117162615745378148
+      spriteID: 896c44f769e4d5e20800000000000000
+      internalID: 3340912906866050712
       vertices: []
       indices: 
       edges: []
@@ -129,10 +159,10 @@ TextureImporter:
       name: ss_thor_idle_1
       rect:
         serializedVersion: 2
-        x: 208
+        x: 160
         y: 0
-        width: 81
-        height: 118
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +170,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d46173110d11bbc0800000000000000
-      internalID: -3769199522674023208
+      spriteID: 5481fbaab8c42c420800000000000000
+      internalID: 2648763693596088389
       vertices: []
       indices: 
       edges: []

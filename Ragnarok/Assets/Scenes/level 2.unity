@@ -4733,6 +4733,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dark elf 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5406960704583298289, guid: 9de2e7745d2ad5344afe4525def4e24e,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f161945cae4e867438bff6aeb8c76cd9, type: 2}
     - target: {fileID: 5406960704583298292, guid: 9de2e7745d2ad5344afe4525def4e24e,
         type: 3}
       propertyPath: m_LocalPosition.x

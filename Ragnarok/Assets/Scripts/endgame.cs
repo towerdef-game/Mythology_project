@@ -29,6 +29,6 @@ public class endgame : MonoBehaviour
 
     void nextscene()
     {
-        SceneManager.LoadScene("Win");
+        SceneManager.LoadScene("level 2");
     }
 }

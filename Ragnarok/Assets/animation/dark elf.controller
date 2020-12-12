@@ -54,7 +54,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ss_darkelf_walking_0
+  m_Name: dark elf
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:

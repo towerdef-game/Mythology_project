@@ -71,7 +71,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e2887ea16188974590160061215cafd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackdistance: 1
+  attackdistance: 5
   movespeed: 2
   attackcooldowntime: 2
   leftlimit: {fileID: 0}

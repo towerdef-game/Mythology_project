@@ -76,8 +76,12 @@ MonoBehaviour:
   maxHealth: 10
   currentHealh: 0
   anim: {fileID: 0}
+<<<<<<< Updated upstream
   clips: {fileID: 8300000, guid: 68af7db427c926a45989ca88701430c8, type: 3}
   source: {fileID: 75800995559059641}
+=======
+  sr: {fileID: 4165112927671663438}
+>>>>>>> Stashed changes
 --- !u!82 &75800995559059641
 AudioSource:
   m_ObjectHideFlags: 0

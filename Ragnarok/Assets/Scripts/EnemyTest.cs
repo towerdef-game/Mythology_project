@@ -41,6 +41,7 @@ public class EnemyTest : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
         source.Play();
         player.GetComponent<PlayerCombat>().currentPlayerKill++;
+        soundmanger.playsound("die");
           Destroy(thisobject);
     }
     public void TakeDamageEnemy(int damage)

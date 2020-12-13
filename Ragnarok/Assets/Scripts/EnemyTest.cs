@@ -8,15 +8,14 @@ public class EnemyTest : MonoBehaviour
     public GameObject thisobject;
     public int maxHealth = 100;
     public int currentHealh;
-     public AudioClip clip1;
-    public AudioSource source1;
     // Start is called before the first frame update
+    public Animator anim;
     void Start()
     {
         currentHealh = maxHealth;
-    
+      //  anim = GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player");
-         source1 = GetComponent<AudioSource>();
+        anim = GetComponentInParent<Animator>();
     }
 
     // Update is called once per frame
@@ -26,23 +25,26 @@ public class EnemyTest : MonoBehaviour
         {
      
             die();
-            
         }
     }
 
    public void die()
     {
-        source1.Play();
         player = GameObject.FindGameObjectWithTag("Player");
 
         player.GetComponent<PlayerCombat>().currentPlayerKill++;
-          Destroy(thisobject, 2f);
+          Destroy(thisobject);
     }
     public void TakeDamageEnemy(int damage)
     {
 
         currentHealh -= damage;
-       // playerHealthBar.SetHealth(currentPlayerHealth);
-
+        // playerHealthBar.SetHealth(currentPlayerHealth);
+     anim.SetBool("attacked", true);
     }
+    public void resetdamge()
+    {
+        anim.SetBool("attacked", false);
+    }
+
 }

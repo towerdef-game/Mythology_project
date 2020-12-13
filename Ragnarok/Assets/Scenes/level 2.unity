@@ -4803,6 +4803,11 @@ PrefabInstance:
       propertyPath: rightlimit
       value: 
       objectReference: {fileID: 380595930}
+    - target: {fileID: 5406960704583298294, guid: 9de2e7745d2ad5344afe4525def4e24e,
+        type: 3}
+      propertyPath: attackdistance
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9de2e7745d2ad5344afe4525def4e24e, type: 3}
 --- !u!1001 &1852698745

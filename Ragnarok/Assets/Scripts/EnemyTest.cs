@@ -12,7 +12,6 @@ public class EnemyTest : MonoBehaviour
     public Animator anim;
     public AudioClip clips;
     public AudioSource source;
-    public bool dead = false;
     void Start()
     {
         currentHealh = maxHealth;
@@ -25,9 +24,9 @@ public class EnemyTest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(currentHealh <=0 && !false)
+        if(currentHealh <=0)
         {
-            dead = true;
+     
             die();
         }
     }
@@ -38,7 +37,7 @@ public class EnemyTest : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
         source.Play();
         player.GetComponent<PlayerCombat>().currentPlayerKill++;
-          Destroy(thisobject);
+          Destroy(thisobject,2f);
     }
     public void TakeDamageEnemy(int damage)
     {

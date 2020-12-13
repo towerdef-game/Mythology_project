@@ -5158,11 +5158,6 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 3413651156703167088, guid: e17266d5859e84c489d08c0cfcf98fd8,
-        type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8262091243051849010, guid: e17266d5859e84c489d08c0cfcf98fd8,
         type: 3}
       propertyPath: PowerText

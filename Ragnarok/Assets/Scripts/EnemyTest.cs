@@ -12,10 +12,14 @@ public class EnemyTest : MonoBehaviour
     public Animator anim;
     public AudioClip clips;
     public AudioSource source;
+    public SpriteRenderer sr;
+    private Material red;
+    private Material matdefault;
     void Start()
     {
         currentHealh = maxHealth;
-
+        red = Resources.Load("red", typeof(Material)) as Material;
+        matdefault = sr.material;
         player = GameObject.FindGameObjectWithTag("Player");
         anim = GetComponentInParent<Animator>();
         source = GetComponent<AudioSource>();
@@ -41,14 +45,14 @@ public class EnemyTest : MonoBehaviour
     }
     public void TakeDamageEnemy(int damage)
     {
-
+        sr.material = red;
         currentHealh -= damage;
+        Invoke("resetmaterial", .5f);
         // playerHealthBar.SetHealth(currentPlayerHealth);
-     anim.SetBool("attacked", true);
+        //   anim.SetBool("attacked", true);
     }
-    public void resetdamge()
+    void resetmaterial()
     {
-        anim.SetBool("attacked", false);
+        sr.material = matdefault;
     }
-
 }

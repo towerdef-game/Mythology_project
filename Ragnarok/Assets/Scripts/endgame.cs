@@ -7,10 +7,13 @@ public class endgame : MonoBehaviour
 {
 
     public Animator anim;
+    public AudioClip clip;
+    public AudioSource source;
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
+        source = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -24,6 +27,7 @@ public class endgame : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             anim.SetBool("end", true);
+source.Play();
         }
     }
 

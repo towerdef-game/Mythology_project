@@ -24,6 +24,7 @@ public class PlayerCombat : MonoBehaviour
    {
      //PowerTextRemainingTimer.text = timer.t
      PowerTextRemainingTimer.SetText(timer.ToString());
+     currentPlayerKill = 0;
    }
 
     void Update()
@@ -51,7 +52,7 @@ public class PlayerCombat : MonoBehaviour
                 //  timer -= Time.deltaTime;
                 StartCoroutine(("countdown"));
                 StartCoroutine(("PowerUp"));
-                currentPlayerKill -= 5;
+                currentPlayerKill -= 3;
                
            
             }

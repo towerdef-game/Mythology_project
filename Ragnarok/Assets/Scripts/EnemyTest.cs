@@ -13,7 +13,7 @@ public class EnemyTest : MonoBehaviour
     void Start()
     {
         currentHealh = maxHealth;
-      //  anim = GetComponent<Animator>();
+
         player = GameObject.FindGameObjectWithTag("Player");
         anim = GetComponentInParent<Animator>();
     }

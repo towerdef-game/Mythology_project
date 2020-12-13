@@ -19,13 +19,19 @@ public class PlayerCombat : MonoBehaviour
    // public TextMeshProUGUI PowerTextRemaining;
     public TextMeshProUGUI PowerTextRemainingTimer;
     public float timer = 3;
+    private SpriteRenderer spr;
+    private Material defalut;
+    private Material pup;
    
    public void Start()
    {
      //PowerTextRemainingTimer.text = timer.t
      PowerTextRemainingTimer.SetText(timer.ToString());
      currentPlayerKill = 0;
-   }
+        spr = GetComponent<SpriteRenderer>();
+        defalut = spr.material;
+        pup = Resources.Load("blue", typeof(Material)) as Material;
+    }
 
     void Update()
     {
@@ -97,9 +103,11 @@ public class PlayerCombat : MonoBehaviour
     {
          damage *= poweUp;
          attackRange *= poweUp;
+        spr.material = pup;
          yield return new WaitForSeconds(3);
           damage /= poweUp;
          attackRange /= poweUp;
+        spr.material = defalut;
     }
 
 

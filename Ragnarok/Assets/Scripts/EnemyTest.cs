@@ -9,11 +9,13 @@ public class EnemyTest : MonoBehaviour
     public int maxHealth = 100;
     public int currentHealh;
     // Start is called before the first frame update
+    public Animator anim;
     void Start()
     {
         currentHealh = maxHealth;
-    
+      //  anim = GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player");
+        anim = GetComponentInParent<Animator>();
     }
 
     // Update is called once per frame
@@ -37,7 +39,12 @@ public class EnemyTest : MonoBehaviour
     {
 
         currentHealh -= damage;
-       // playerHealthBar.SetHealth(currentPlayerHealth);
-
+        // playerHealthBar.SetHealth(currentPlayerHealth);
+     anim.SetBool("attacked", true);
     }
+    public void resetdamge()
+    {
+        anim.SetBool("attacked", false);
+    }
+
 }

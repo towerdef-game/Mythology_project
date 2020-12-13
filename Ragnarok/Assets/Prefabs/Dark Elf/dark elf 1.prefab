@@ -173,6 +173,7 @@ MonoBehaviour:
   thisobject: {fileID: 5406960704583298288}
   maxHealth: 6
   currentHealh: 0
+  anim: {fileID: 0}
 --- !u!1 &5406960704873412143
 GameObject:
   m_ObjectHideFlags: 0

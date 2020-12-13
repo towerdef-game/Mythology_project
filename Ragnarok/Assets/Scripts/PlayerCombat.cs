@@ -71,7 +71,7 @@ public class PlayerCombat : MonoBehaviour
         foreach(Collider2D	enemy in hit)
         {
             enemy.GetComponent<EnemyTest>().TakeDamageEnemy(damage);
-
+           // enemy.GetComponent<Animator>().SetBool("attacked", true);
         }
     }
 

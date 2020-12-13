@@ -152,5 +152,8 @@ public class enemy_behaviour : MonoBehaviour
         }
         transform.eulerAngles = rotation;
     }
-    
+    public void resetdamge()
+    {
+        anim.SetBool("attacked", false);
+    }
 }

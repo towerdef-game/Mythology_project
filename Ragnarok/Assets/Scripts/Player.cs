@@ -155,7 +155,7 @@ public class Player : MonoBehaviour
     public void  Die()
     {
          source.Play();
-    Destroy(this.gameObject,.5f);
+    Destroy(this.gameObject,1f);
         //Debug.Log("Dead");
     }
 

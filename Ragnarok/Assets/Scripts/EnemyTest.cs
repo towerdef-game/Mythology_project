@@ -10,12 +10,15 @@ public class EnemyTest : MonoBehaviour
     public int currentHealh;
     // Start is called before the first frame update
     public Animator anim;
+    public AudioClip clips;
+    public AudioSource source;
     void Start()
     {
         currentHealh = maxHealth;
 
         player = GameObject.FindGameObjectWithTag("Player");
         anim = GetComponentInParent<Animator>();
+        source = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -30,10 +33,11 @@ public class EnemyTest : MonoBehaviour
 
    public void die()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
 
+        player = GameObject.FindGameObjectWithTag("Player");
+        source.Play();
         player.GetComponent<PlayerCombat>().currentPlayerKill++;
-          Destroy(thisobject);
+          Destroy(thisobject,2f);
     }
     public void TakeDamageEnemy(int damage)
     {

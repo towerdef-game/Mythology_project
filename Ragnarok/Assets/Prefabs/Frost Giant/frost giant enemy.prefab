@@ -75,8 +75,9 @@ MonoBehaviour:
   thisobject: {fileID: 4165112926329286614}
   maxHealth: 10
   currentHealh: 0
-  clip1: {fileID: 8300000, guid: 68af7db427c926a45989ca88701430c8, type: 3}
-  source1: {fileID: 75800995559059641}
+  anim: {fileID: 0}
+  clips: {fileID: 8300000, guid: 68af7db427c926a45989ca88701430c8, type: 3}
+  source: {fileID: 75800995559059641}
 --- !u!82 &75800995559059641
 AudioSource:
   m_ObjectHideFlags: 0

@@ -9,7 +9,7 @@ public class EnemyTest : MonoBehaviour
     public int maxHealth = 100;
     public int currentHealh;
     // Start is called before the first frame update
-    public Animator anim;
+   // public Animator anim;
     public AudioClip clips;
     public AudioSource source;
     public SpriteRenderer sr;
@@ -21,7 +21,7 @@ public class EnemyTest : MonoBehaviour
         red = Resources.Load("red", typeof(Material)) as Material;
         matdefault = sr.material;
         player = GameObject.FindGameObjectWithTag("Player");
-        anim = GetComponentInParent<Animator>();
+      //  anim = GetComponentInParent<Animator>();
         source = GetComponent<AudioSource>();
     }
 

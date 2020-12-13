@@ -71,7 +71,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e2887ea16188974590160061215cafd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackdistance: 5
+  attackdistance: 3
   movespeed: 2
   attackcooldowntime: 2
   leftlimit: {fileID: 0}
@@ -174,7 +174,6 @@ MonoBehaviour:
   thisobject: {fileID: 5406960704583298288}
   maxHealth: 6
   currentHealh: 0
-  anim: {fileID: 0}
   clips: {fileID: 0}
   source: {fileID: 8117906501646454354}
   sr: {fileID: 5406960704873412141}

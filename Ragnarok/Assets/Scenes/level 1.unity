@@ -1200,7 +1200,7 @@ GameObject:
   - component: {fileID: 524344068}
   - component: {fileID: 524344067}
   - component: {fileID: 524344066}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: portal_ss_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1262,9 +1262,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 1497531765
+  m_SortingLayer: -1
+  m_SortingOrder: -3
   m_Sprite: {fileID: -1529099982758678388, guid: 8c8d47bbf3ddafe4ea437cdff1bd917a,
     type: 3}
   m_Color: {r: 0, g: 0.98000383, b: 1, a: 1}
@@ -1289,7 +1289,7 @@ Transform:
   m_LocalScale: {x: 0.8581027, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 69
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &539204474
 PrefabInstance:

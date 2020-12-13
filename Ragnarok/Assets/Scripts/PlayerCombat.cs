@@ -66,7 +66,9 @@ public class PlayerCombat : MonoBehaviour
 
      void Attack()
     {
+        
         animator.SetTrigger("Attack");
+        soundmanger.playsound("att");
         Collider2D[] hit = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, Enemy);
 
         foreach(Collider2D	enemy in hit)

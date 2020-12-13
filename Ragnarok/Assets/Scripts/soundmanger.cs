@@ -10,6 +10,7 @@ public class soundmanger : MonoBehaviour
      void Start()
     {
         death = Resources.Load<AudioClip>("enemydeath");
+        hit = Resources.Load<AudioClip>("Hit");
         src = GetComponent<AudioSource>();
 
     }
@@ -20,6 +21,10 @@ public class soundmanger : MonoBehaviour
         {
             case "die":
                 src.PlayOneShot(death);
+                break;
+
+            case "att":
+                src.PlayOneShot(hit);
                 break;
         }
     }

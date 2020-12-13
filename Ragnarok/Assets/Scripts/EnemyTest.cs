@@ -37,7 +37,7 @@ public class EnemyTest : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
         source.Play();
         player.GetComponent<PlayerCombat>().currentPlayerKill++;
-          Destroy(thisobject,2f);
+          Destroy(thisobject);
     }
     public void TakeDamageEnemy(int damage)
     {

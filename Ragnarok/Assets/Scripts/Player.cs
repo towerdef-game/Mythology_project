@@ -20,7 +20,8 @@ public class Player : MonoBehaviour
     bool facingRight = true;
     //bool death = true;
 
-  
+      public AudioClip clip;
+    public AudioSource source;
 
     public bool walkingSound = false;
     public bool shootingSound = false;
@@ -47,7 +48,7 @@ public class Player : MonoBehaviour
     {
         playerRigidbody = GetComponent<Rigidbody2D> ();
         Anim = GetComponent<Animator>();
-     
+     source = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -153,7 +154,8 @@ public class Player : MonoBehaviour
     }
     public void  Die()
     {
-    Destroy(this.gameObject);
+         source.Play();
+    Destroy(this.gameObject,.5f);
         //Debug.Log("Dead");
     }
 
